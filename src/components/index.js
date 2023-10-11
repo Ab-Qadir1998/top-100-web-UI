@@ -3,3 +3,8 @@ export { default as Footer } from './Layout/Footer'
 export { default as PublicRoutes } from './PublicRoutes'
 // Page Components 
 export { default as Banner } from './PagesComponents/Home/Banner'
+export { default as ClientSlides } from './PagesComponents/Home/ClientSlides'
+export { default as AboutSec } from './PagesComponents/Home/AboutSec'
+export { default as ServicesSec } from './PagesComponents/Home/ServicesSec'
+export { default as PackagesSec } from './PagesComponents/Home/PackagesSec'
+export { default as Testimonials } from './PagesComponents/Home/Testimonials'

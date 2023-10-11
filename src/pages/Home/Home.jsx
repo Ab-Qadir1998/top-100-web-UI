@@ -1,10 +1,15 @@
 import React from 'react'
-import { Banner } from '../../components'
+import { AboutSec, Banner, ClientSlides, PackagesSec, ServicesSec, Testimonials } from '../../components'
 
 const Home = () => {
   return (
     <>
       <Banner />
+      <ClientSlides />
+      <AboutSec />
+      <ServicesSec />
+      <PackagesSec />
+      <Testimonials />
     </>
   )
 }
