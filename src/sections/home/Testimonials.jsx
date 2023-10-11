@@ -1,5 +1,5 @@
 import React from 'react'
-import { testimonialsData } from '../../../constants/data'
+import { testimonialsData } from '../../constants/data'
 import Slider from 'react-slick'
 
 const Testimonials = () => {

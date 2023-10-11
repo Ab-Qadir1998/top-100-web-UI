@@ -1,5 +1,5 @@
-import { servicesCardData } from '../../../constants/data'
-import ServicesCard from '../ServicesCard'
+import { servicesCardData } from '../../constants/data'
+import ServicesCard from '../../components/ServicesCard'
 
 const ServicesSec = () => {
     return (

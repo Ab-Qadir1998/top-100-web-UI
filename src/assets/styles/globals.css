@@ -1,0 +1,118 @@
+@import "./fonts.css";
+:root {
+  --primary-color: #07b0aa;
+  --theme-dark: #2a2b2a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+/* presets  */
+.text-light {
+  color: #fff !important;
+}
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.text-dark {
+  color: #2A2B2A !important;
+}
+.bg-light {
+  background: #fff !important;
+}
+.para {
+  color: #2a2b2a;
+  font-size: 18px;
+  font-family: "Kenit", sans-serif;
+  font-weight: 400;
+}
+.theme__border {
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+}
+.border-rounded {
+  border-radius: 20px;
+}
+.level-1 {
+  font-size: 62px;
+  font-family: "Kenit", sans-serif;
+}
+.level-2 {
+  font-size: 44px;
+  font-family: "Kenit", sans-serif;
+}
+.level-3 {
+  font-size: 30px;
+  font-family: "Kenit", sans-serif;
+}
+.level-4 {
+  font-size: 24px;
+  font-family: "Kenit", sans-serif;
+  font-weight: 500;
+}
+
+.btn__transparent {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.btn__transparent:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+/* presets  */
+
+.input-group label {
+    font-family: "Kenit", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .level-1 {
+    font-size: 48px;
+  }
+  .level-2 {
+    font-size: 30px;
+  }
+  .level-3 {
+    font-size: 22px;
+  }
+  .level-4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .level-1 {
+    font-size: 35px;
+  }
+  .level-2 {
+    font-size: 22px;
+  }
+  .level-3 {
+    font-size: 18px;
+  }
+  .level-4 {
+    font-size: 20px;
+    font-family: "Kenit", sans-serif;
+    color: #000;
+    
+  }
+  p,
+  .para {
+    font-size: 15px;
+  }
+}

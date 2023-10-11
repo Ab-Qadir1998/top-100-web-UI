@@ -1,5 +1,5 @@
 import React from 'react'
-import { aboutImg } from '../../../constants/mediaConstants'
+import { aboutImg } from '../../constants/mediaConstants'
 
 const AboutSec = () => {
     return (

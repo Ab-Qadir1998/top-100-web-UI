@@ -1,4 +1,4 @@
-import { clientLogoOne, clientLogoTwo, clientLogoThree, clientLogoFour, clientLogoFive } from "../../../constants/mediaConstants"
+import { clientLogoOne, clientLogoTwo, clientLogoThree, clientLogoFour, clientLogoFive } from "../../constants/mediaConstants"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
