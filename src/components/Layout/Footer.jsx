@@ -3,17 +3,17 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <div class="container over-hidden">
-        <div class="row wow animate__animated animate__fadeInUp">
-          <div class="col-lg-4 col-md-6 ">
-            <div class="footer-content logo-content">
-              <div class="logo-box">
+      <div className="container over-hidden">
+        <div className="row wow animate__animated animate__fadeInUp">
+          <div className="col-lg-4 col-md-6 ">
+            <div className="footer-content logo-content">
+              <div className="logo-box">
                 <a href="index.php">
                   <figure>
                     <img
                       src="assets/img/logo/logo.png"
                       alt="footer-logo"
-                      class="img-fluid"
+                      className="img-fluid"
                     />
                   </figure>
                 </a>
@@ -24,9 +24,9 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 ">
-            <div class="footer-content">
-              <ul class="menu-links menus quick-links">
+          <div className="col-lg-4 col-md-6 ">
+            <div className="footer-content">
+              <ul className="menu-links menus quick-links">
                 <li>
                   <a href="index">Home</a>
                 </li>
@@ -51,30 +51,28 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-content">
+          <div className="col-lg-4 col-md-6">
+            <div className="footer-content">
               <form action="">
                 <p>Subscribe To Our Newsletter</p>
-                <div class="newsletter-footer">
-                  <div class="form-group">
+                <div className="newsletter-footer">
+                  <div className="form-group">
                     <input
                       type="email"
                       placeholder="Enter Your Email"
-                      class="form-control"
+                      className="form-control"
                     />
                   </div>
-                  <div class="button-group">
-                    <button type="button" class="btn primary-btn">
+                  <div className="button-group">
+                    <button type="button" className="btn primary-btn">
                       Submit
                     </button>
                   </div>
                 </div>
               </form>
-              <ul class="contact-info">
+              <ul className="contact-info">
                 <li>
-                  <a href="javascript:void(0)">
-                    1234 ABC STREET, SUITE 234 A 2345, CA, USA
-                  </a>
+                  <a href="#">1234 ABC STREET, SUITE 234 A 2345, CA, USA</a>
                 </li>
                 <li>
                   <a href="tel:+2577884046;">+1 234 567 8901</a>
@@ -86,8 +84,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="copyright wow animate__animated animate__fadeInLeft">
-          <p class=" text-center">
+        <div className="copyright wow animate__animated animate__fadeInLeft">
+          <p className=" text-center">
             Copyright © All Rights Reserved{" "}
             <script>document.write(new Date().getFullYear())</script> -
             www.Top100WebsiteAdvertising.com{" "}

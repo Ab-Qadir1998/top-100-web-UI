@@ -1,16 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { logo } from "../../constants/mediaConstants";
+import { navItems } from "../../constants/data";
 
 const Header = () => {
   return (
-    <header class="without-login wow animate__animated animate__fadeInUp">
-      <div class="sec-header">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <div class="container">
-            <a class="navbar-brand" href="index">
-              <img src="assets/img/logo/logo.png" alt="logo" />
-            </a>
+    <header className="without-login wow animate__animated animate__fadeInUp">
+      <div className="sec-header">
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <div className="container">
+            <Link className="navbar-brand" to="/">
+              <img src={logo} alt="top-100-web" />
+            </Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -18,75 +21,104 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ms-auto">
+                {navItems?.map((item, i) => (
+                  <li
+                    className={`nav-item ${item?.className && item?.className}`}
+                    key={i}
+                  >
+                    <Link
+                      className="nav-link"
+                      aria-current="page"
+                      to={item?.link}
+                    >
+                      {item?.label}
+                    </Link>
+                    {item?.subItems && (
+                      <ul className="dropdown-menu">
+                        {item?.subItems?.map((subItem, i) => (
+                          <li key={i}>
+                            <Link className="dropdown-item">
+                              {subItem?.label}{" "}
+                              <i className="fas fa-chevron-right"></i>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+                {/* <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
                     About Us
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
+                <li className="nav-item dropdown">
+                  <Link
+                    className="nav-link dropdown-toggle"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Services
-                  </a>
-                  <ul class="dropdown-menu">
+                  </Link>
+                  <ul className="dropdown-menu">
                     <li>
-                      <a class="dropdown-item" href="#">
-                        Website Advertising <i class="fas fa-chevron-right"></i>
-                      </a>
+                      <Link className="dropdown-item" to="#">
+                        Website Advertising <i className="fas fa-chevron-right"></i>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
-                        Website Marketing <i class="fas fa-chevron-right"></i>
-                      </a>
+                      <Link className="dropdown-item" to="#">
+                        Website Marketing <i className="fas fa-chevron-right"></i>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="#">
                         Internet Advertising{" "}
-                        <i class="fas fa-chevron-right"></i>
-                      </a>
+                        <i className="fas fa-chevron-right"></i>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item border-0" href="#">
+                      <Link className="dropdown-item border-0" to="#">
                         Website Digital Advertising{" "}
-                        <i class="fas fa-chevron-right"></i>
-                      </a>
+                        <i className="fas fa-chevron-right"></i>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
                     FAQ’s
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
                     PACKAGES
-                  </a>
+                  </Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
+                <li className="nav-item">
+                  <Link className="nav-link" to="#">
                     CONTACT
-                  </a>
+                  </Link>
                 </li>
                 <form>
-                  <a href="#" class="btn primary-btn  start" type="submit">
+                  <Link to="#" className="btn primary-btn  start" type="submit">
                     SCHEDULE A CALL
-                  </a>
-                </form>
+                  </Link>
+                </form> */}
               </ul>
             </div>
           </div>
