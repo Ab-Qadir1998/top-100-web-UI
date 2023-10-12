@@ -19,7 +19,7 @@ const AboutSec = () => {
                         top-notch SEO services that can elevate your online presence and drive tangible results. Our track
                         record speaks volumes about our expertise, as we have consistently helped businesses of all sizes and
                         industries achieve remarkable success in the digital realm.</p>
-                    <ThemeButton text={"LEARN MORE"} bg={true} margin={"me-lg-3"}/>
+                    <ThemeButton text={"LEARN MORE"} bg={true} margin={"me-3"}/>
                     <ThemeButton text={"Get A Free Analysis"} />
                 </div>
             </div>

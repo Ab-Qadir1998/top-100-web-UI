@@ -3,14 +3,10 @@ import React from "react";
 const InputField = ({ label, type, placeholder }) => {
   return (
     <>
-      <label htmlFor="name" className="form-label">
+      <label className="form-label w-100 m-0">
         {label}
+        <input type={type} className="form-control" placeholder={placeholder} />
       </label>
-      <input
-        type={type}
-        className="form-control"
-        placeholder={placeholder}
-      />
     </>
   );
 };

@@ -38,14 +38,14 @@ const Banner = () => {
                         placeholder={"https://"}
                       />
                     </div>
-                    <div className="mb-3 col-lg-7">
+                    <div className="col-lg-7">
                       <InputField
-                        label={"Website URL"}
+                        label={"Email address"}
                         type={"email"}
                         placeholder={"John Doe"}
                       />
                     </div>
-                    <div className="mb-3 col-lg-5">
+                    <div className="col-lg-5 mt-3 mt-lg-0">
                       <ThemeButton
                         text={"Let's Go!"}
                         type="submit"

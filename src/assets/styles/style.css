@@ -400,7 +400,8 @@ p.banner__para {
   padding: 25px;
 }
 .slide-show img {
-  width: 225px;
+  max-width: 225px;
+  width: 100%;
 }
 
 .about-sce {
@@ -673,4 +674,13 @@ footer ul.contact-info li {
   list-style: none;
   font-family: "Kenit", sans-serif;
   font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .services-sec .card {
+    height: 300px;
+  }
+  .testimonial-slider-wrapp p {
+    height: 230px;
+  }
 }

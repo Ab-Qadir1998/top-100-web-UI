@@ -15,27 +15,28 @@ const Header = () => {
             <button
               className="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              // aria-expanded="false"
+              // aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
+              className="offcanvas offcanvas-end"
+              tabindex="-1"
+              aria-labelledby="offcanvasNavbarLabel"
+              id="offcanvasNavbar"
             >
-              <ul className="navbar-nav ms-auto">
-                {navItems?.map((item, i) => (
+              <ul className="navbar-nav ms-0 ms-lg-auto align-items-center h-100">
+                {navItems?.map((item, i) =>
                   !item?.subItems ? (
-                    <li
-                      className="nav-item"
-                      key={i}
-                    >
+                    <li className="nav-item" key={i}>
                       <Link
-                        className={`nav-link ${item?.className && item?.className}`}
+                        className={`nav-link ${
+                          item?.className && item?.className
+                        }`}
                         aria-current="page"
                         to={item?.link}
                       >
@@ -43,14 +44,13 @@ const Header = () => {
                       </Link>
                     </li>
                   ) : (
-                    <li
-                      className="nav-item dropdown"
-                      key={i}
-                    >
+                    <li className="nav-item dropdown" key={i}>
                       <Link
                         aria-current="page"
                         to={item?.link}
-                        className={`nav-link dropdown-toggle ${item?.className && item?.className}`}
+                        className={`nav-link dropdown-toggle ${
+                          item?.className && item?.className
+                        }`}
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
@@ -71,7 +71,7 @@ const Header = () => {
                       )}
                     </li>
                   )
-                ))}
+                )}
               </ul>
             </div>
           </div>

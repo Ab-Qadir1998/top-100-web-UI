@@ -88,6 +88,11 @@ ul {
   font-weight: 300;
 }
 
+@media (max-width: 1366px) {
+  .level-1 {
+    font-size: 52px;
+  }
+}
 @media (max-width: 991px) {
   .level-1 {
     font-size: 48px;
