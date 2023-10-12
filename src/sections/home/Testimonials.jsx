@@ -8,7 +8,7 @@ const Testimonials = () => {
     slidesToShow: 2,
     autoplay: true,
     arrows: false,
-    centerMode : true,
+    centerMode: true,
     // centerPadding : '0 0 0 0',
     responsive: [
       {
@@ -32,9 +32,9 @@ const Testimonials = () => {
     ],
   };
   return (
-    <section class="testimonials-sec">
-      <div class="container">
-        <div class="text-center mb-5">
+    <section className="testimonials-sec">
+      <div className="container">
+        <div className="text-center mb-5">
           <h6 className="level-4 text-primary m-0">TESTIMONIALS</h6>
           <h2 className="level-2">
             Hear from Our
@@ -43,10 +43,10 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="col-lg-11 col-sm-12 ms-auto">
-        <div class="testimonial-slider">
+        <div className="testimonial-slider">
           <Slider {...settings}>
             {testimonialsData?.map((testimonial, i) => (
-              <div class="testimonial-slider-wrapp">
+              <div className="testimonial-slider-wrapp" key={i}>
                 <div className="testi__inner">
                   <h4 className="level-4 text-primary">{testimonial?.title}</h4>
                   <p className="level-5">{testimonial?.review}</p>

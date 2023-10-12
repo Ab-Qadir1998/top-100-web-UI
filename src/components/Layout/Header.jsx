@@ -25,10 +25,18 @@ const Header = () => {
             </button>
             <div
               className="offcanvas offcanvas-end"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="offcanvasNavbarLabel"
               id="offcanvasNavbar"
             >
+              <div className="offcanvas-header">
+                <button
+                  type="button"
+                  className="btn-close ms-auto"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
               <ul className="navbar-nav ms-0 ms-lg-auto align-items-center h-100">
                 {navItems?.map((item, i) =>
                   !item?.subItems ? (

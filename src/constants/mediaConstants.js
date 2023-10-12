@@ -1,5 +1,5 @@
 import logo from "../assets/media/logo/logo.png";
-import bannerImg from "../assets/media/bannerimg.jpg";
+import bannerImg from "../assets/media/banner-img.png";
 import clientLogoOne from "../assets/media/logo1.png";
 import clientLogoTwo from "../assets/media/logo2.png";
 import clientLogoThree from "../assets/media/logo3.png";

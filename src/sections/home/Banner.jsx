@@ -7,9 +7,10 @@ const Banner = () => {
     <section className="mainbannerbg">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7 wow animate__animated animate__fadeInLeft">
+          <div className="col-lg-7">
             <h1 className="banner__heading level-1 text-dark">
-              Boost Your <span className="text-primary">Rankings</span> with Our Expert{" "}
+              Boost Your <span className="text-primary">Rankings</span> with Our
+              Expert
               <span>SEO Services!</span>
             </h1>
             <p className="banner__para para">
@@ -57,14 +58,16 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 wow animate__animated animate__fadeInRight">
-            <figure>
-              <img
-                src={bannerImg}
-                className="img-fluid w-100"
-                alt="top-100-web"
-              />
-            </figure>
+          <div className="col-lg-5">
+            <div className="banner__img position-relative">
+              <figure>
+                <img
+                  src={bannerImg}
+                  className="img-fluid w-100"
+                  alt="top-100-web"
+                />
+              </figure>
+            </div>
           </div>
         </div>
       </div>

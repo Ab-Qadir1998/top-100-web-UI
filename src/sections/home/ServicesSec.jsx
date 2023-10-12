@@ -4,9 +4,9 @@ import ThemeButton from "../../components/ThemeButton";
 
 const ServicesSec = () => {
   return (
-    <section class="services-sec">
-      <div class="container">
-        <div class="text-center mb-5">
+    <section className="services-sec">
+      <div className="container">
+        <div className="text-center mb-5">
           <h6 className="text-primary level-4 m-0">SERVICES</h6>
           <h2 className="level-2">
             Elevating Your
@@ -14,16 +14,16 @@ const ServicesSec = () => {
           </h2>
         </div>
 
-        <div class="row">
+        <div className="row">
           {servicesCardData?.map((card, i) => (
-            <div class="col-md-4 mb-3  wow animate__animated animate__fadeInLeft">
-              <ServicesCard key={i} card={card} />
+            <div key={i} className="col-md-4 mb-3  wow animate__animated animate__fadeInLeft">
+              <ServicesCard  card={card} />
             </div>
           ))}
         </div>
-        <div class="text-center mt-3  wow animate__animated animate__fadeInUp">
+        <div className="text-center mt-3  wow animate__animated animate__fadeInUp">
             <ThemeButton text={"View All"} margin={"mt-3"}/>
-          {/* <button type="submit" class="btn primary-btn">
+          {/* <button type="submit" className="btn primary-btn">
             View All
           </button> */}
         </div>
