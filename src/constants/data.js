@@ -46,7 +46,7 @@ export const navItems = [
   {
     label: "Schedule A Call",
     link: "/schedule-a-call",
-    className: "btn primary-btn  start",
+    className: "btn primary-btn start",
   },
 ];
 

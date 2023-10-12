@@ -52,7 +52,7 @@ const Footer = () => {
                   </div>
                   <div className="button-group">
                     <button type="button" className="btn primary-btn">
-                      Submit
+                      Subscribe
                     </button>
                   </div>
                 </div>

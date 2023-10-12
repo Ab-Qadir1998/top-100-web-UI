@@ -31,11 +31,11 @@ const Header = () => {
                 {navItems?.map((item, i) => (
                   !item?.subItems ? (
                     <li
-                      className={`nav-item ${item?.className && item?.className}`}
+                      className="nav-item"
                       key={i}
                     >
                       <Link
-                        className="nav-link"
+                        className={`nav-link ${item?.className && item?.className}`}
                         aria-current="page"
                         to={item?.link}
                       >
@@ -44,13 +44,13 @@ const Header = () => {
                     </li>
                   ) : (
                     <li
-                      className={`nav-item dropdown ${item?.className && item?.className}`}
+                      className="nav-item dropdown"
                       key={i}
                     >
                       <Link
                         aria-current="page"
                         to={item?.link}
-                        className="nav-link dropdown-toggle"
+                        className={`nav-link dropdown-toggle ${item?.className && item?.className}`}
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"

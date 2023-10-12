@@ -13,7 +13,9 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Kenit", sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -30,7 +32,7 @@ ul {
   color: var(--primary-color) !important;
 }
 .text-dark {
-  color: #2A2B2A !important;
+  color: #2a2b2a !important;
 }
 .bg-light {
   background: #fff !important;
@@ -65,6 +67,11 @@ ul {
   font-family: "Kenit", sans-serif;
   font-weight: 500;
 }
+.level-5 {
+  font-size: 20px;
+  font-family: "Kenit", sans-serif;
+  font-weight: 500;
+}
 
 .btn__transparent {
   border: 1px solid var(--primary-color);
@@ -76,9 +83,9 @@ ul {
 }
 /* presets  */
 
-.input-group label {
-    font-family: "Kenit", sans-serif;
-    font-weight: 300;
+.form-label {
+  font-family: "Kenit", sans-serif;
+  font-weight: 300;
 }
 
 @media (max-width: 991px) {
@@ -94,6 +101,9 @@ ul {
   .level-4 {
     font-size: 20px;
   }
+  .level-5 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 575px) {
   .level-1 {
@@ -107,9 +117,9 @@ ul {
   }
   .level-4 {
     font-size: 20px;
-    font-family: "Kenit", sans-serif;
-    color: #000;
-    
+  }
+  .level-5 {
+    font-size: 16px;
   }
   p,
   .para {

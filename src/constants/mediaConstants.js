@@ -6,9 +6,9 @@ import clientLogoThree from "../assets/media/logo3.png";
 import clientLogoFour from "../assets/media/logo4.png";
 import clientLogoFive from "../assets/media/logo5.png";
 import aboutImg from "../assets/media/about-img.jpg";
-import servicesImgOne from "../assets/media/services-img1.jpg";
-import servicesImgTwo from "../assets/media/services-img2.jpg";
-import servicesImgThree from "../assets/media/services-img3.jpg";
+import servicesImgOne from "../assets/media/services-img1.png";
+import servicesImgTwo from "../assets/media/services-img2.png";
+import servicesImgThree from "../assets/media/services-img3.png";
 
 export {
     logo, bannerImg, clientLogoOne,
