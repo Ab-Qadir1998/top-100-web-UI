@@ -9,6 +9,17 @@ import aboutImg from "../assets/media/about-img.jpg";
 import servicesImgOne from "../assets/media/services-img1.png";
 import servicesImgTwo from "../assets/media/services-img2.png";
 import servicesImgThree from "../assets/media/services-img3.png";
+// Members Imaages Imported Here
+import member1Img from "../assets/media/members/member1.png";
+import member2Img from "../assets/media/members/member2.png";
+import member3Img from "../assets/media/members/member3.png";
+import member4Img from "../assets/media/members/member4.png";
+// Services Images Imported Here
+import service1Img from "../assets/media/services/service1.png";
+import service2Img from "../assets/media/services/service2.png";
+import service3Img from "../assets/media/services/service3.png";
+import service4Img from "../assets/media/services/service4.png";
+
 
 export {
     logo, bannerImg, clientLogoOne,
@@ -19,5 +30,13 @@ export {
     aboutImg,
     servicesImgOne,
     servicesImgTwo,
-    servicesImgThree
+    servicesImgThree,
+    member1Img,
+    member2Img,
+    member3Img,
+    member4Img,
+    service1Img,
+    service2Img,
+    service3Img,
+    service4Img,
 };

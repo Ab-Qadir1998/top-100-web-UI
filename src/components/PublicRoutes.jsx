@@ -1,12 +1,17 @@
 import { Route, Routes } from "react-router-dom";
 import LayOut from "./Layout/Layout";
-import { Home, NotFound } from "../pages";
+import { Home, NotFound, ContactUs, Faqs, Services, PrivacyPolicy, TermsConditions } from "../pages";
 
 const PublicRoutes = () => {
   return (
     <LayOut>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-condtions" element={<TermsConditions />} />
+        <Route path="/faqs" element={<Faqs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </LayOut>

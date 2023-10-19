@@ -89,7 +89,18 @@ figure {
 button {
   border: 0;
 }
-
+/* Universal banner Css Start Here */
+.universal-banner {
+  background-color: #EBFAFA;
+}
+.universal-banner .page-banner-start  {
+  background-image: url("../media/logo/banner-logo.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 27px 0px;
+}
+/* Universal banner Css End Here */
 /* Header With out Login Css Start Here */
 
 nav .primary-btn {
@@ -421,6 +432,10 @@ p.banner__para {
   box-shadow: 0 0 0 transparent !important;
   border: 1px solid var(--primary-color);
 }
+textarea.form-control {
+  resize: none;
+  height: calc(189px / 5 * 4);
+}
 .top-div {
   background: #ebfafa;
   padding: 25px;
@@ -616,3 +631,51 @@ footer ul.contact-info li {
     font-size: 16px;
   }
 }
+/* Home Page Css End Here */
+/* Contact Form Css Start Here */
+.get-in-touch {
+  padding: 90px 0px 39px;
+}
+.single-info .icon {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  height: 62px;
+  width: 62px;
+}
+.single-info  .text-here {
+  width: calc(100% - 92px);
+}
+/* Contact Form Css End Here */
+/* Faqs Css Start Here */
+.faq-section {
+  padding: 78px 0px 120px;
+}
+.faqs-list .single-faq {
+  margin: 12px 0px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.faqs-list .single-faq .accordion-button:focus {
+  box-shadow: none;
+}
+.faqs-list .single-faq .accordion-button:not(.collapsed),
+.faqs-list .single-faq .accordion-button,
+.faqs-list .single-faq .para{
+  color: var(--theme-dark);
+}
+.faqs-list .single-faq .accordion-button::after {
+  background-size: 15px;
+  filter: brightness(0);
+  scale: 1.1;
+}
+/* Faqs Css End Here */
+/* Services Css Start Here */
+.services-start .single-service {
+  background-color: #F3F5F5;
+}
+.services-start .single-service .service-image .img-here {
+  height: 340px;
+  object-fit: cover;
+}
+/* Services Css ENd Here */
