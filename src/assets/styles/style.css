@@ -425,7 +425,8 @@ p.banner__para {
   border-radius: 10px;
   box-shadow: 0px 6px 30px 2px #07b0aa17;
 }
-.form-control::placeholder {
+.form-control::placeholder,
+select.form-control {
   color: #757575;
 }
 .form-control:focus {
@@ -679,3 +680,8 @@ footer ul.contact-info li {
   object-fit: cover;
 }
 /* Services Css ENd Here */
+/* Quote Section Css */
+.section-padding {
+  padding: 75px 0px 60px;
+}
+/* Quote Section Css */

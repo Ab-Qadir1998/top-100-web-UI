@@ -56,7 +56,7 @@ ul {
   border-radius: 20px;
 }
 .level-1 {
-  font-size: 62px;
+  font-size: calc(72px / 5 * 4);
   font-family: "Kenit", sans-serif;
 }
 .level-2 {
