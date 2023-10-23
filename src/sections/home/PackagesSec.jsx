@@ -1,13 +1,13 @@
 import InputField from "../../components/InputField";
 import ThemeButton from "../../components/ThemeButton";
-
+import { Link } from 'react-router-dom'
 const PackagesSec = () => {
   return (
     <section className="packages-sec">
       <div className="packages-text">PACKAGES</div>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6 pe-lg-5 customized-quote-div wow animate__animated animate__fadeInLeft">
+          <div className="col-lg-6 col-md-6 pe-lg-5 customized-quote-div wow animate__animated animate__fadeInLeft animate__delay-1s">
             <h6 className="level-4 text-primary">PACKAGES</h6>
             <h2 className="level-2">
               Here's what's we{" "}
@@ -48,8 +48,7 @@ const PackagesSec = () => {
               </div>
             </form>
           </div>
-
-          <div className="col-lg-6 ps-lg-5 wow animate__animated animate__fadeInRight">
+          <div className="col-lg-6 col-md-6 ps-lg-5 wow animate__animated animate__fadeInRight animate__delay-2s">
             <div className="small-business-div">
               <h3 className="level-3">
                 Small <span className="text-primary">Business</span> Website
@@ -79,13 +78,19 @@ const PackagesSec = () => {
               </div>
               <div className="row">
                 <div className="col-md-6">
-                    <ThemeButton text={"Place Order"} width={"w-100"} bg={true}/>
+                  {/* <ThemeButton text={"Place Order"} width={"w-100"} bg={true}/> */}
+                  <Link
+                    to="/checkout"
+                    className={`btn  secondary-btn`}
+                  >
+                    Place Order
+                  </Link>
                   {/* <button type="submit" className="btn secondary-btn w-100">
                     Place Order
                   </button> */}
                 </div>
-                <div className="col-md-6">
-                <ThemeButton text={"Live Chat"} width={"w-100"}/>
+                <div className="col-md-6  pt-3 pt-md-0">
+                  <ThemeButton text={"Live Chat"} width={"w-100"} />
                   {/* <button type="submit" className="btn primary-btn w-100">
                     Live Chat
                   </button> */}

@@ -57,14 +57,14 @@ const ServiceDetails = (props) => {
     const selectedService = serviceData1.find(service => service.id === parseInt(id, 10));
 
     const columns = 3;
-    
+
     return (
         <>
             <PageBanner dark_heading="Our" light_heading=" Services" />
             <div className="section-padding pt-5">
                 <div className="container-fluid px-0">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 ms-auto px-5 py-5 wow animate__animated animate__fadeInRight">
+                        <div className="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight order-1 order-lg-0">
                             <div className="ps-xxl-5">
                                 <h6 className='level-4 text-primary m-0'>Services</h6>
                                 <h2 className="level-1">{selectedService.name_dark}<span className='text-primary'> {selectedService.name_light}</span></h2>
@@ -77,12 +77,14 @@ const ServiceDetails = (props) => {
                                 <img src={selectedService.image} className="img-fluid w-100" alt="" />
                             </figure>
                         </div>
-                        <div className="col-lg-6 pe-lg-4 py-5 wow animate__animated animate__fadeInLeft">
+                    </div>
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 pe-lg-4 py-5 wow animate__animated animate__fadeInLeft animate__delay-2s">
                             <figure>
                                 <img src={serviceData2.image} className="img-fluid w-100" alt="" />
                             </figure>
                         </div>
-                        <div className="col-lg-6 ms-auto px-5 py-5 wow animate__animated animate__fadeInRight">
+                        <div className="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight animate__delay-2s">
                             <div className="pe-xxl-5">
                                 <h6 className='level-4 text-primary m-0'>Services</h6>
                                 <h2 className="level-1">{serviceData2.name_dark}<span className='text-primary'> {serviceData2.name_light}</span></h2>

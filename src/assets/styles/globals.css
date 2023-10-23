@@ -25,6 +25,14 @@ a {
 ul {
   list-style: none;
 }
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lines-2{
+  -webkit-line-clamp: 2;
+}
 /* presets  */
 .text-light {
   color: #fff !important;
@@ -56,7 +64,8 @@ ul {
   border-radius: 20px;
 }
 .level-1 {
-  font-size: calc(72px / 5 * 4);
+  /* font-size: calc(72px / 5 * 4); */
+  font-size: 47px;
   font-family: "Kenit", sans-serif;
 }
 .level-2 {
@@ -99,46 +108,66 @@ ul {
   font-weight: 300;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1400px) {
   .level-1 {
-    font-size: 52px;
+    font-size: 48px;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .level-3 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 1200px) {
+  .level-1 {
+    font-size: 44px;
+  }
+  .level-3 {
+    font-size: 24px;
+  }
+  .level-2 {
+    font-size: 39px;
   }
 }
 @media (max-width: 991px) {
   .level-1 {
-    font-size: 48px;
+    font-size: 42px;
   }
   .level-2 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .level-3 {
-    font-size: 22px;
+    font-size: 21px;
   }
   .level-4 {
     font-size: 20px;
   }
   .level-5 {
-    font-size: 18px;
+    font-size: 17px;
+  }
+  .para {
+    font-size: 14px;
   }
 }
 @media (max-width: 575px) {
   .level-1 {
-    font-size: 35px;
+    font-size: 34px;
   }
   .level-2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .level-3 {
-    font-size: 18px;
+    font-size: 19px;
   }
   .level-4 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .level-5 {
-    font-size: 16px;
+    font-size: 15px;
   }
   p,
   .para {
-    font-size: 15px;
+    font-size: 12px;
   }
 }

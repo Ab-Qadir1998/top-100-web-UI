@@ -61,7 +61,7 @@ const Footer = () => {
                 {
                   contactInfo?.map((info, i) => (
                     <li key={i}>
-                      <Link href={info?.link}>{info?.label}</Link>
+                      <Link href={info?.link} className="para text-white">{info?.label}</Link>
                     </li>
                   ))
                 }

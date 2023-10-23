@@ -8,3 +8,5 @@ export { default as TermsConditions } from "./TextPages/TermsConditions";
 export { default as GetQuoteSec } from "./GetQuote/GetQuote";
 export { default as ServiceDetails } from "./Services/ServiceDetails";
 export { default as Packages } from "./Packages/Packages";
+export { default as Checkout } from "./Checkout/Checkout";
+export { default as AboutUs } from "./AboutUs/AboutUs";

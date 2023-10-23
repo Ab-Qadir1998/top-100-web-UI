@@ -9,13 +9,13 @@ const GetInTouchSec = () => {
                 <div className="container">
                     <div className="touch-start">
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-7 pe-lg-5 wow animate__animated animate__fadeInLeft animate__delay-1s">
                                 <div className="countact-text pe-lg-5">
                                     <h3 class="level-2 mb-0">Get in touch</h3>
                                     <h2 class="level-1 line-height-1 text-primary">Let us know what’s on your mind.</h2>
                                     <div className="contact-info-list">
-                                        <div className="row">
-                                            <div className="col-md-6 mt-4">
+                                        <div className="row mt-4">
+                                            <div className="col-xl-6 col-lg-12 mt-4 wow animate__animated animate__fadeInLeft animate__delay-1s">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ const GetInTouchSec = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-6 mt-4">
+                                            <div className="col-xl-6 col-lg-12 mt-4 wow animate__animated animate__fadeInRight animate__delay-1s">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ const GetInTouchSec = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-md-8 mt-4">
+                                            <div className="col-xl-8 mt-4">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@ const GetInTouchSec = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-5 mt-5 mt-md-0 wow animate__animated animate__fadeInRight animate__delay-1s">
                                 <div className="contact-form">
                                     <form>
                                         <div className="row">

@@ -10,6 +10,7 @@ import servicesImgOne from "../assets/media/services-img1.png";
 import servicesImgTwo from "../assets/media/services-img2.png";
 import servicesImgThree from "../assets/media/services-img3.png";
 import quoteImg from "../assets/media/quote.png";
+import paypalImg from "../assets/media/paypal.png";
 // Members Imaages Imported Here
 import member1Img from "../assets/media/members/member1.png";
 import member2Img from "../assets/media/members/member2.png";
@@ -51,4 +52,5 @@ export {
     serviceDetail3Img,
     serviceDetail4Img,
     serviceDetail5Img,
+    paypalImg
 };

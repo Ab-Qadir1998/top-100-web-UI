@@ -1,6 +1,7 @@
 import { servicesCardData } from "../../constants/data";
 import ServicesCard from "../../components/ServicesCard";
-import ThemeButton from "../../components/ThemeButton";
+// import ThemeButton from "../../components/ThemeButton";
+import { Link } from 'react-router-dom'
 
 const ServicesSec = () => {
   return (
@@ -16,13 +17,19 @@ const ServicesSec = () => {
 
         <div className="row">
           {servicesCardData?.map((card, i) => (
-            <div key={i} className="col-md-4 mb-3  wow animate__animated animate__fadeInLeft">
+            <div key={i} className="col-md-4 mb-3  wow animate__animated animate__fadeInLeft animate__delay-1s">
               <ServicesCard  card={card} />
             </div>
           ))}
         </div>
         <div className="text-center mt-3  wow animate__animated animate__fadeInUp">
-            <ThemeButton text={"View All"} margin={"mt-3"}/>
+            {/* <ThemeButton text={"View All"} margin={"mt-3"}/> */}
+            <Link
+              to="/services"
+              className={`btn  primary-btn`}
+            >
+              View All
+          </Link>
           {/* <button type="submit" className="btn primary-btn">
             View All
           </button> */}

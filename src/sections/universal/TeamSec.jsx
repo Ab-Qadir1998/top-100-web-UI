@@ -38,7 +38,7 @@ const TeamSec = (props) => {
             <section className="team-section py-5">
                 <div className="container">
                     <div className="team-start">
-                        <div className="top-heading text-center">
+                        <div className="top-heading text-center wow animate__animated animate__fadeInBottom animate__delay-1s">
                             <h6 className="level-5 text-primary">Our Team</h6>
                             <h2 className="level-2">Meet our Revolutionary <span className="text-primary">Team</span></h2>
                         </div>

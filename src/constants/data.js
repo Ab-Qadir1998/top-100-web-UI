@@ -15,19 +15,19 @@ export const navItems = [
     subItems: [
       {
         label: "Website Advertising",
-        link: "/website-adversiting",
+        link: "/service/1",
       },
       {
         label: "Website Marketing",
-        link: "/website-marketing",
+        link: "/service/2",
       },
       {
         label: "Internet Advertising",
-        link: "/internet-advertising",
+        link: "/service/3",
       },
       {
         label: "Website Digital Advertising",
-        link: "/website-digital-advertising",
+        link: "/service/4",
       },
     ],
   },
@@ -41,11 +41,11 @@ export const navItems = [
   },
   {
     label: "Contact",
-    link: "/contact",
+    link: "/contactus",
   },
   {
     label: "Schedule A Call",
-    link: "/schedule-a-call",
+    link: "",
     className: "btn primary-btn start",
   },
 ];
@@ -70,7 +70,7 @@ export const footerLinks = [
   },
   {
     label: 'Contact',
-    link: '/contact'
+    link: '/contactus'
   },
   {
     label: 'Terms & Conditions',

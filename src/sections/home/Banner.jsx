@@ -7,7 +7,7 @@ const Banner = () => {
     <section className="mainbannerbg">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7">
+          <div className="col-lg-7 wow animate__animated animate__fadeInLeft animate__delay-1s">
             <h1 className="banner__heading level-1 text-dark">
               Boost Your <span className="text-primary">Rankings</span> with Our
               Expert
@@ -58,7 +58,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 mt-5 mt-lg-4-0 wow animate__animated animate__fadeInRight animate__delay-1s">
             <div className="banner__img position-relative">
               <figure>
                 <img

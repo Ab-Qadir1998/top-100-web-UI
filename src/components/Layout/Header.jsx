@@ -69,7 +69,7 @@ const Header = () => {
                         <ul className="dropdown-menu">
                           {item?.subItems?.map((subItem, i) => (
                             <li key={i}>
-                              <Link className="dropdown-item">
+                              <Link className="dropdown-item" to={subItem?.link}>
                                 {subItem?.label}
                                 <i className="fas fa-chevron-right"></i>
                               </Link>

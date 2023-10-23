@@ -5,13 +5,13 @@ const AboutSec = () => {
     return (
         <div className="about-sce">
             <div className="row align-items-center">
-                <div className="col-lg-6 wow animate__animated animate__fadeInLeft">
+                <div className="col-lg-6 wow animate__animated animate__fadeInLeft animate__delay-1s">
                     <figure>
                         <img src={aboutImg} className="img-fluid w-100" alt="" />
                     </figure>
                 </div>
 
-                <div className="col-lg-6 p-5 wow animate__animated animate__fadeInRight">
+                <div className="col-lg-6 p-4 p-sm-5 wow animate__animated animate__fadeInRight animate__delay-1s">
                     <h6 className='level-4 text-primary m-0'>About Us</h6>
                     <h2 className="level-1">Your Trusted Partner in <span className='text-primary'>Digital Success</span></h2>
                     <p className='para'>At Top 100 Website Advertising, our mission is to be your unwavering partner on the journey to online
