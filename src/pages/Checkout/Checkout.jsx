@@ -1,11 +1,11 @@
 import React from "react";
 import InputField from "../../components/InputField";
-import { paypalImg } from "../../constants/mediaConstants";
 import PageBanner from "../../components/PagesBanner";
+import PayPalBtn from "../../components/PayPalBtn";
 const Checkout = () => {
     return (
         <>
-        <PageBanner dark_heading="Checkout" />
+            <PageBanner dark_heading="Checkout" />
             <section className="checkout-section section-padding">
                 <div className="container">
                     <div className="checkout-start">
@@ -67,13 +67,14 @@ const Checkout = () => {
 
 
                                             <div className="mb-3 col-12 mt-auto">
-                                                
-                                                <button
+
+                                                {/* <button
                                                     type="submit"
                                                     className={`btn  extra-btn w-100 d-block`}
                                                 >
                                                     <img src={paypalImg} className="paypal-img" alt="" />
-                                                </button>
+                                                </button> */}
+                                                <PayPalBtn />
                                             </div>
                                         </div>
                                     </form>
@@ -92,7 +93,7 @@ const Checkout = () => {
                                                     <span className="para font-small"> Small <span className=" text-primary">Business</span> Website</span>
                                                 </div>
                                                 <div className="col-md-5 mt-2">
-                                                    <span className="para">Amount Pyable:</span>
+                                                    <span className="para">Amount Payable:</span>
                                                 </div>
                                                 <div className="col-md-7 mt-2">
                                                     <span className="para"> $500</span>

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import LayOut from "./Layout/Layout";
 import { Home, NotFound, ContactUs, Faqs, Services, PrivacyPolicy, TermsConditions, GetQuoteSec, ServiceDetails, Packages, Checkout, AboutUs } from "../pages";
+import ThankYou from "../pages/ThankYou/ThankYou";
 
 const PublicRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const PublicRoutes = () => {
         <Route path="/packages" element={<Packages />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/thank-you" element={<ThankYou />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </LayOut>

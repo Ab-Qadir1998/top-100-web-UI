@@ -987,3 +987,13 @@ footer ul.contact-info li {
   }
 }
 /* ABout Sections End Here */
+
+/* Thank You  */
+.thankyou__wrapp {
+  border: 1px solid var(--primary-color);
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  margin: 4rem auto;
+}
+/* Thank You  */
