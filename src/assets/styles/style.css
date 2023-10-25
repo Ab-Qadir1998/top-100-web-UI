@@ -110,13 +110,16 @@ button {
 .primary-btn {
   position: relative;
 }
+
 .secondary-btn:hover,
 .primary-btn:hover {
   color: #FFF !important;
 }
 
-.secondary-btn:after,.secondary-btn:before,
-.primary-btn:after,.primary-btn:before {
+.secondary-btn:after,
+.secondary-btn:before,
+.primary-btn:after,
+.primary-btn:before {
   background-color: initial;
   content: "";
   display: block;
@@ -144,16 +147,20 @@ button {
   transform: translate(-100%)
 }
 
-.secondary-btn:hover:after,.secondary-btn:hover:before,
-.primary-btn:hover:after,.primary-btn:hover:before {
+.secondary-btn:hover:after,
+.secondary-btn:hover:before,
+.primary-btn:hover:after,
+.primary-btn:hover:before {
   background: #000;
   -webkit-transform: translate(0);
   transform: translate(0);
   z-index: -1
 }
 
-.secondary-btn:hover,a.secondary-btn:hover,
-.primary-btn:hover,a.primary-btn:hover {
+.secondary-btn:hover,
+a.secondary-btn:hover,
+.primary-btn:hover,
+a.primary-btn:hover {
   background-color: initial;
   background-image: none;
   color: var(--primary-theme-color);
@@ -960,6 +967,7 @@ footer ul.contact-info li {
   width: calc(100% - 80px);
   padding: 50px;
 }
+
 @media (max-width: 991px) {
   .vision-mission .single-text-box .text-here {
     width: calc(100% - 40px);
@@ -967,25 +975,30 @@ footer ul.contact-info li {
     padding-right: 20px;
   }
 }
+
 @media (max-width: 991px) {
   .vision-mission .single-text-box .text-here {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .vision-mission .single-text-box .text-here {
     width: 100%;
-    
+
   }
 }
+
 @media (max-width: 576px) {
-  .form-control{
+  .form-control {
     padding-top: 10px;
   }
+
   footer ul.menu-links.menus.quick-links {
     column-count: 1;
     margin: 25px 0px;
   }
 }
+
 /* ABout Sections End Here */
 
 /* Thank You  */
@@ -996,4 +1009,9 @@ footer ul.contact-info li {
   border-radius: 10px;
   margin: 4rem auto;
 }
+
 /* Thank You  */
+
+div[aria-label="paypal paylater"] {
+  display: none !important;
+}

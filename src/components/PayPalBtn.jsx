@@ -24,7 +24,7 @@ const PayPalBtn = () => {
 
     const options = {
         'client-id': import.meta.env.VITE_PAYPAL_API,
-        'disable-funding': 'card',
+        'disable-funding': 'card,paylater', 
     }
 
     return (
