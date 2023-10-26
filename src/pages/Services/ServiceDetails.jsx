@@ -40,18 +40,18 @@ const ServiceDetails = (props) => {
         },
         {
             id: 4,
-            name_light: "Internet",
-            name_dark: "Advertising",
+            name_light: "Advertising",
+            name_dark: "Internet",
             para: para1,
             image: serviceDetail5Img,
         },
     ];
     const serviceData2 = {
         id: 1,
-        name_light: "Take the Step Towards ",
-        name_dark: "Your Online Success",
+        name_light: "Your Online Success",
+        name_dark: "Take the Step Towards",
         para: para2,
-        image: serviceDetail5Img,
+        image: serviceDetail2Img,
     }
     const { id } = useParams();
     const selectedService = serviceData1.find(service => service.id === parseInt(id, 10));
@@ -87,8 +87,8 @@ const ServiceDetails = (props) => {
                         <div className="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight animate__delay-2s">
                             <div className="pe-xxl-5">
                                 <h6 className='level-4 text-primary m-0'>Services</h6>
-                                <h2 className="level-1">{serviceData2.name_dark}<span className='text-primary'> {serviceData2.name_light}</span></h2>
-                                <p className='para'>{serviceData2.para}</p>
+                                <h2 className="level-1">{serviceData2.name_dark} <br /><span className='text-primary'> {serviceData2.name_light}</span></h2>
+                                <p className='para mt-2'>{serviceData2.para}</p>
 
                             </div>
                         </div>
@@ -99,13 +99,19 @@ const ServiceDetails = (props) => {
             <section className="service-search-for">
                 <div className="container">
                     <div className="service-search-start">
-                        <div className="row">
-                            {
-                                servicesData.map((service, index) => (
-                                    service.id != id &&
-                                    <ServiceItem first_name={service.first_name} columns={columns} id={service.id} last_name={service.last_name} para={service.para} image={service.image} key={index} />
-                                ))
-                            }
+                        <div className="top-heading text-center pb-2">
+                            <h6 className='level-5 text-primary m-0'>Recommended</h6>
+                            <h2 className="level-2">People Also <span className='text-primary'>Search For</span></h2>
+                        </div>
+                        <div className="services-start">
+                            <div className="row">
+                                {
+                                    servicesData.map((service, index) => (
+                                        service.id != id &&
+                                        <ServiceItem first_name={service.first_name} columns={columns} id={service.id} last_name={service.last_name} para={service.para} image={service.image} key={index} />
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
                 </div>

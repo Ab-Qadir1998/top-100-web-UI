@@ -39,7 +39,7 @@ const FaqSec = () => {
                                             <div className="single-faq" key={index}>
                                                 <div class="accordion-item bg-transparent border-0 py-1">
                                                     <h2 class="accordion-header" id={`heading${index}`}>
-                                                        <button class={`accordion-button accordian-custom-btn level-5 px-4 mx-lg-1 py-3 ${(index === 0) ? '' : 'collapsed'} bg-transparent border-0`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded={`${(index === 0) ? 'true' : 'false'}`} aria-controls={`collapse${index}`}>
+                                                        <button class={`accordion-button accordian-custom-btn level-5 px-4 mx-lg-1 py-3 font-large text-dark ${(index === 0) ? '' : 'collapsed'} bg-transparent border-0`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded={`${(index === 0) ? 'true' : 'false'}`} aria-controls={`collapse${index}`}>
                                                             {singleFaq.question}
                                                         </button>
                                                     </h2>

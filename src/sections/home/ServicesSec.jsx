@@ -17,7 +17,7 @@ const ServicesSec = () => {
 
         <div className="row">
           {servicesCardData?.map((card, i) => (
-            <div key={i} className="col-md-4 mb-3  wow animate__animated animate__fadeInLeft animate__delay-1s">
+            <div key={i} className="col-md-4 mb-3 mh-100  wow animate__animated animate__fadeInLeft animate__delay-1s">
               <ServicesCard  card={card} />
             </div>
           ))}

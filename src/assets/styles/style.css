@@ -213,7 +213,9 @@ button {
   background-size: contain;
   padding: 27px 0px;
 }
-
+.page-banner-start.wihtout-image {
+  background-image: unset;
+}
 /* Universal banner Css End Here */
 /* Header With out Login Css Start Here */
 
@@ -355,7 +357,9 @@ nav .primary-btn:hover {
 .btn-flex {
   display: flex;
 }
-
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
 /* Header With out Login Css End Here */
 
 /* Mobile Header Css Start Here */
@@ -399,6 +403,10 @@ nav .primary-btn:hover {
     background: #fff;
     padding: 20px;
   }
+
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    display: block;
+  }
 }
 
 @media (max-width: 768px) {
@@ -429,6 +437,9 @@ nav .primary-btn:hover {
     min-width: auto;
     left: -50px;
   }
+
+ 
+
 
   .mainbannerbg .banner {
     display: none !important;
@@ -624,7 +635,7 @@ textarea.form-control {
 .services-sec .card {
   padding: 50px;
   border-radius: 10px;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   justify-content: space-between;
   background: #fff;
@@ -642,8 +653,7 @@ textarea.form-control {
   object-fit: contain;
 }
 
-.services-sec .card:hover h3,
-.services-sec .card:hover a {
+.services-sec .card:hover * {
   color: #fff !important;
 }
 
@@ -658,7 +668,7 @@ textarea.form-control {
 }
 
 .packages-sec {
-  padding: 100px 0;
+  padding: 141px 0 100px;
   position: relative;
 }
 
@@ -690,17 +700,20 @@ textarea.form-control {
 }
 
 .small-business-div-text {
-  margin: 30px 0 50px 0;
+  margin: 30px -29px 50px 0;
   height: 200px;
   overflow: auto;
+  padding-right: 27px ;
 }
 
 .small-business-div-text::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  
 }
 
-.small-business-div-text::-webkit-scrollbar-track {
+.small-business-div-text::-webkit-scrollbar-thumb {
   background: #07b0aa;
+  border-radius: 10px;
 }
 
 .packages-text {
@@ -729,11 +742,19 @@ textarea.form-control {
   .packages-text {
     font-size: 110px;
   }
+  .packages-sec {
+    padding: 111px 0 80px;
+    position: relative;
+}
 }
 
 @media (max-width: 991px) {
   .packages-text {
     font-size: 90px;
+  }
+  .small-business-div-text {
+    margin-right: -10px;
+    padding-right: 10px;
   }
 }
 
@@ -756,9 +777,16 @@ textarea.form-control {
 
 @media (max-width: 420px) {
   .packages-text {
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 10px;
   }
+  .packages-text {
+    top: 0px;
+  }
+  .packages-sec {
+    padding: 79px 0 60px;
+    position: relative;
+}
 }
 
 .testimonials-sec {
@@ -848,10 +876,14 @@ footer ul.contact-info li {
   font-family: "Kenit", sans-serif;
   font-weight: 300;
 }
-
+.service-search-for {
+  background-color: #EBFAFA;
+  padding: 54px 0px 25px;
+}
 @media (max-width: 991px) {
   .services-sec .card {
-    height: 300px;
+    
+    padding: 28px 20px;
   }
 
   .testimonial-slider-wrapp p {
@@ -882,7 +914,12 @@ footer ul.contact-info li {
 .single-info .text-here {
   width: calc(100% - 92px);
 }
-
+@media (max-width: 1400px) {
+  .single-info .icon {
+    width: 54px;
+    height: 54px;
+}
+}
 /* Contact Form Css End Here */
 /* Faqs Css Start Here */
 .faq-section {
@@ -911,7 +948,9 @@ footer ul.contact-info li {
   filter: brightness(0);
   scale: 1.1;
 }
-
+.faqs-list .single-faq  .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
 /* Faqs Css End Here */
 /* Services Css Start Here */
 .services-start .single-service {

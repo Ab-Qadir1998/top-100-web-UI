@@ -44,8 +44,8 @@ export const navItems = [
     link: "/contactus",
   },
   {
-    label: "Schedule A Call",
-    link: "",
+    label: "GET A QUOTE",
+    link: "/get-quote",
     className: "btn primary-btn start",
   },
 ];
@@ -100,15 +100,18 @@ export const contactInfo = [
 export const servicesCardData = [
   {
     img: servicesImgOne,
-    name: 'Search Engine Marketing'
+    name: 'Website Advertising',
+    para: "Our Mission is to be your unwavering partner on the journey to online success."
   },
   {
     img: servicesImgTwo,
-    name: 'Search Engine Optimization'
+    name: 'Website Marketing',
+    para: "Our Mission is to be your unwavering partner on the journey to online success."
   },
   {
     img: servicesImgThree,
-    name: 'Local Search Engine Optimization'
+    name: 'Internet Advertising',
+    para: "Our Mission is to be your unwavering partner on the journey to online success."
   },
 ]
 

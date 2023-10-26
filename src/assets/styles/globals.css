@@ -98,6 +98,9 @@ ul {
 .font-small {
   font-weight: 200;
 }
+.font-large {
+  font-weight: 600;
+}
 .line-height-1 {
   line-height: 1;
 }

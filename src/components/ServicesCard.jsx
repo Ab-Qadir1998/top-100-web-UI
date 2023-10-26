@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 
 const ServicesCard = ({ card }) => {
   return (
-    <div className="card">
+    <div className="card h-100">
       <figure>
         <img src={card?.img} className="img-fluid" alt="services" />
       </figure>
-      <h3 className="level-3">{card?.name}</h3>
+      <div className="text mb-auto mt-4">
+        
+      <h3 className="level-3 mb-2">{card?.name}</h3>
+      <p className="para text-primary">{card?.para}</p>
+      </div>
       <Link to="#" className="level-5 text-primary">
         LEARN MORE
       </Link>

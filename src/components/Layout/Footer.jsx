@@ -32,7 +32,7 @@ const Footer = () => {
               <ul className="menu-links menus quick-links">
                 {footerLinks?.map((fooLinks, i) => (
                   <li key={i}>
-                    <Link to={fooLinks?.link}>{fooLinks?.label}</Link>
+                    <Link to={fooLinks?.link} className=" text-uppercase">{fooLinks?.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -61,7 +61,7 @@ const Footer = () => {
                 {
                   contactInfo?.map((info, i) => (
                     <li key={i}>
-                      <Link href={info?.link} className="para text-white">{info?.label}</Link>
+                      <Link href={info?.link} className="para text-white ">{info?.label}</Link>
                     </li>
                   ))
                 }

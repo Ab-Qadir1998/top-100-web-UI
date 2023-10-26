@@ -6,13 +6,13 @@ import TeamSec from '../../sections/universal/TeamSec'
 const AboutUs = () => {
     return (
         <>
-            <PageBanner dark_heading="About" light_heading="us" />
+            <PageBanner dark_heading="About" light_heading="us" image_logo="wihtout-image" />
             <div class="section-padding pt-5">
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight order-1 order-lg-0">
                             <div class="ps-xxl-5">
-                                <h6 class="level-4 text-primary m-0">Services</h6>
+                                <h6 class="level-4 text-primary m-0">About Us</h6>
                                 <h2 class="level-1">Your Trusted Partner in<span class="text-primary"> Digital Success</span></h2>
                                 <p class="para">At Top 100 Website Advertising, our mission is to be your unwavering partner on the journey to online success. With years of experience and a team of seasoned SEO experts, we are committed to delivering top-notch SEO services that can elevate your online presence and drive tangible results. Our track record speaks volumes about our expertise, as we have consistently helped businesses of all sizes and industries achieve remarkable success in the digital realm.</p>
                                 <Link to="/services" class="btn  primary-btn  ">View Services</Link>

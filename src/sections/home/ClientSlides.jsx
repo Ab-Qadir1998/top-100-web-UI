@@ -42,11 +42,13 @@ const ClientSlides = () => {
     ],
   };
   return (
-    <div className="top-div wow animate__animated animate__fadeInUpBig">
-      <div className="container">
-        <div className="slide-show">
-          <Slider {...settings}>
-            {/* {
+    <>
+      <div className="pt-5"></div>
+      <div className="top-div wow animate__animated animate__fadeInUpBig ">
+        <div className="container">
+          <div className="slide-show">
+            <Slider {...settings}>
+              {/* {
                             clientLogos?.map((logo, i) => {
                                 <div className="slick-slideshow__slide">
                                     <figure>
@@ -55,60 +57,61 @@ const ClientSlides = () => {
                                 </div>
                             })
                         } */}
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoOne} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoTwo} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoThree} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoFour} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoFive} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoOne} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoTwo} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoThree} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoFour} alt={`client's`} />
-              </figure>
-            </div>
-            <div className="slick-slideshow__slide">
-              <figure>
-                <img src={clientLogoFive} alt={`client's`} />
-              </figure>
-            </div>
-          </Slider>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoOne} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoTwo} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoThree} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoFour} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoFive} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoOne} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoTwo} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoThree} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoFour} alt={`client's`} />
+                </figure>
+              </div>
+              <div className="slick-slideshow__slide">
+                <figure>
+                  <img src={clientLogoFive} alt={`client's`} />
+                </figure>
+              </div>
+            </Slider>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

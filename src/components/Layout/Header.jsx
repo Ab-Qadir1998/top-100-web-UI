@@ -59,9 +59,8 @@ const Header = () => {
                         className={`nav-link dropdown-toggle ${
                           item?.className && item?.className
                         }`}
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
+                        
+                        
                       >
                         {item?.label}
                       </Link>

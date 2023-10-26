@@ -6,7 +6,7 @@ import PageBanner from '../../components/PagesBanner'
 const Packages = () => {
     return (
         <>
-        <PageBanner dark_heading='Packages' />
+        <PageBanner dark_heading='Packages' image_logo="wihtout-image" />
             <section className="package-section section-padding">
                 <div className="container">
                     <div className="package-start">
@@ -14,7 +14,7 @@ const Packages = () => {
                             <div className="col-md-6 wow animate__animated animate__fadeInLeft animate__delay-1s">
                                 <div className="text-here py-5 pe-xl-3">
                                     <h6 className='level-4 text-primary m-0 '>Packages</h6>
-                                    <h2 className="level-1">Here’s what we <span className='text-primary'>Charge for our service</span></h2>
+                                    <h2 className="level-1 mb-3">Here’s what we <span className='text-primary d-block'>Charge for our service</span></h2>
                                     <p className='para me-xl-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p>
                                 </div>
                             </div>
@@ -35,11 +35,11 @@ const Packages = () => {
             </section>
             <section className="package-quote pb-5 mb-4">
                 <div className="container">
-                    <div className="package-quote-start quote-box p-3 p-SM-5">
+                    <div className="package-quote-start quote-box p-3 p-sm-5 pt-4">
                         <div className="row">
                             <div className="col-lg-5 ps-xxl-4 pe-xxl-5">
                                 <div className="text-here">
-                                    <h6 className='level-4 text-primary m-0 '>Packages</h6>
+                                    <h6 className='level-5 text-primary m-0 '>Do you want a free analysis of your website?</h6>
                                     <h2 className="level-2">Get a <span className='text-primary'>Quote Now!</span></h2>
                                     <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                                 </div>
@@ -73,15 +73,15 @@ const Packages = () => {
                                             
                                             <div className="mb-3 col-md-8">
                                                 <InputField
-                                                    label={"Phone"}
+                                                    label={"Website URL"}
                                                     type={"text"}
-                                                    placeholder={"Enter Phone"}
+                                                    placeholder={"https://"}
                                                 />
                                             </div>
                                           
 
                                             <div className="mb-3 col-lg-4 mt-auto">
-                                                <ThemeButton text={"Submit!"} width={"w-100"} />
+                                                <ThemeButton text={"Let's Go!"} width={"w-100"} />
                                             </div>
                                         </div>
                                     </form>

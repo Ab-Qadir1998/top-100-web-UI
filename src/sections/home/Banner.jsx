@@ -4,7 +4,7 @@ import { bannerImg } from "../../constants/mediaConstants";
 
 const Banner = () => {
   return (
-    <section className="mainbannerbg">
+    <section className="mainbannerbg mb-4">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-7 wow animate__animated animate__fadeInLeft animate__delay-1s">
@@ -25,26 +25,48 @@ const Banner = () => {
               <div className="input-group mb-3">
                 <form>
                   <div className="row align-items-end">
-                    <div className="mb-3 col-lg-5">
+                    <div className="mb-3 col-lg-4">
                       <InputField
                         label={"Full name"}
                         type={"text"}
                         placeholder={"John Doe"}
                       />
                     </div>
-                    <div className="mb-3 col-lg-7">
+                    <div className="mb-3 col-lg-4">
+                      <label className="form-label w-100 m-0">
+                        Service
+                        <select name="" id="" className="form-select form-control">
+                          <option value="">Select Service</option>
+                        </select>
+                      </label>
+                    </div>
+                    {/* <div className="mb-3 col-lg-4">
                       <InputField
                         label={"Website URL"}
                         type={"text"}
                         placeholder={"https://"}
                       />
+                    </div> */}
+                    <div className="mb-3 col-lg-4">
+                      <InputField
+                        label={"Email address"}
+                        type={"text"}
+                        placeholder={"youremail@email.com"}
+                      />
                     </div>
                     <div className="col-lg-7">
-                      <InputField
+                      {/* <InputField
                         label={"Email address"}
                         type={"email"}
                         placeholder={"John Doe"}
+                      /> */}
+                      
+                      <InputField
+                        label={"Website URL"}
+                        type={"text"}
+                        placeholder={"https://"}
                       />
+                    
                     </div>
                     <div className="col-lg-5 mt-3 mt-lg-0">
                       <ThemeButton
