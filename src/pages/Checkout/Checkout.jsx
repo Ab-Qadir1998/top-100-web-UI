@@ -90,13 +90,27 @@ const Checkout = () => {
                                                     <span className="para font-small">Package Name:</span>
                                                 </div>
                                                 <div className="col-md-7 mt-2">
-                                                    <span className="para font-small"> Small <span className=" text-primary">Business</span> Website</span>
+                                                    <span className="para font-small">  HTML for <span className=" text-primary"> website</span></span>
                                                 </div>
                                                 <div className="col-md-5 mt-2">
                                                     <span className="para">Amount Payable:</span>
                                                 </div>
                                                 <div className="col-md-7 mt-2">
-                                                    <span className="para"> $500</span>
+                                                    <span className="para lg-para">$250.00 – One time</span>
+                                                </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-md-5 mt-2">
+                                                    <span className="para font-small">Package Name:</span>
+                                                </div>
+                                                <div className="col-md-7 mt-2">
+                                                    <span className="para font-small"> Website  <span className=" text-primary">Advertising:</span></span>
+                                                </div>
+                                                <div className="col-md-5 mt-2">
+                                                    <span className="para">Amount Payable:</span>
+                                                </div>
+                                                <div className="col-md-7 mt-2">
+                                                    <span className="para lg-para"> $250.00 – Ongoing</span>
                                                 </div>
                                             </div>
                                         </div>

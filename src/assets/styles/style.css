@@ -103,7 +103,7 @@ button {
 }
 
 
-
+/* 
 
 
 .secondary-btn,
@@ -166,11 +166,41 @@ a.primary-btn:hover {
   color: var(--primary-theme-color);
   z-index: 999
 }
+ */
 
 
-
-
-
+ .secondary-btn,
+ .primary-btn {
+   position: relative;
+   overflow: hidden;
+   transition: all 0.6s;
+ }
+ 
+ .secondary-btn:hover,
+ .primary-btn:hover {
+   transform: scale(1.05); /* Adjust the scale factor as needed for the grow effect */
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
+ }
+ 
+ .secondary-btn:hover::before,
+ .primary-btn:hover::before {
+   background: transparent;
+   transition: all 0.6s;
+ }
+ 
+ .secondary-btn:hover::after,
+ .primary-btn:hover::after {
+   background: transparent;
+   transition: all 0.6s;
+ }
+ 
+ .secondary-btn:hover,
+ a.secondary-btn:hover,
+ .primary-btn:hover,
+ a.primary-btn:hover {
+   color:#FFF !important;
+   z-index: 999
+ }
 
 
 
@@ -1053,4 +1083,10 @@ footer ul.contact-info li {
 
 div[aria-label="paypal paylater"] {
   display: none !important;
+}
+
+.service-search-for .single-service .level-5 {
+  color: #929292;
+  font-size: 16px;
+  line-height: 1.3;
 }

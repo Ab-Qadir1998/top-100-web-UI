@@ -53,6 +53,9 @@ ul {
   font-family: "Kenit", sans-serif;
   font-weight: 400;
 }
+.para.lg-para {
+  font-size: 18px;
+}
 .light-color {
   color: var(--light-color);
 }

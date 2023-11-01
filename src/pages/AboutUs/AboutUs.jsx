@@ -13,8 +13,16 @@ const AboutUs = () => {
                         <div class="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight order-1 order-lg-0">
                             <div class="ps-xxl-5">
                                 <h6 class="level-4 text-primary m-0">About Us</h6>
-                                <h2 class="level-1">Your Trusted Partner in<span class="text-primary"> Digital Success</span></h2>
-                                <p class="para">At Top 100 Website Advertising, our mission is to be your unwavering partner on the journey to online success. With years of experience and a team of seasoned SEO experts, we are committed to delivering top-notch SEO services that can elevate your online presence and drive tangible results. Our track record speaks volumes about our expertise, as we have consistently helped businesses of all sizes and industries achieve remarkable success in the digital realm.</p>
+                                {/* <h2 class="level-1">Your Trusted Partner in<span class="text-primary"> Digital Success</span></h2> */}
+                                <h2 className="level-1">Unlock Top-Tier Online Visibility with <span className='text-primary'>Our Top 100 Website Advertising Service</span></h2>
+                                <p className='para'>Experience unparalleled website advertising and website marketing expertise at Top 100
+                                    Website Advertising. We pledge to position your website within the top 100 listings on
+                                    Google and 1000 other search engines within a mere 45 days, or your advertising is on
+                                    us. Elevate your online presence and secure top search engine rankings with us, riskfree. <br /><br />
+                                    With a proven track record of success, we extend an invitation for you to enhance your
+                                    online presence and witness your website ascend to the apex of search engine rankings.
+                                    Don't miss this risk-free opportunity to achieve unrivaled online success. Place your
+                                    website where it rightfully belongs: leading the way in search engine results.</p>
                                 <Link to="/services" class="btn  primary-btn  ">View Services</Link>
                             </div>
                         </div>
@@ -33,7 +41,13 @@ const AboutUs = () => {
                                 <div className="single-text-box">
                                     <div className="text-here">
                                         <h2 className="level-2">Our <span className=' text-primary'>Mission</span></h2>
-                                        <p className="para">Our mission at Top 100 Website Advertising is to serve as your steadfast companion on the path to online triumph. Drawing upon years of expertise and guided by a cadre of seasoned SEO professionals, we are dedicated to providing exceptional SEO services capable of enhancing your digital footprint and generating concrete outcomes. Our proven track record attests to our proficiency, demonstrating our unwavering ability to empower businesses of diverse scales and sectors to attain extraordinary achievements within the digital domain.</p>
+                                        <p className="para">Our mission at Top 100 Website Advertising is unwavering dedication to website
+                                            advertising excellence. We are on a mission to revolutionize online visibility, providing
+                                            cutting-edge solutions that propel businesses to the top of search engine rankings. With
+                                            a proven track record and a commitment to delivering exceptional results, we invite you
+                                            to join us in reaching new heights of online success. Our mission is to position your
+                                            website where it truly belongs – at the forefront of search engine results, driving your
+                                            business towards unparalleled achievements.</p>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +55,14 @@ const AboutUs = () => {
                                 <div className="single-text-box">
                                     <div className="text-here">
                                         <h2 className="level-2">Our <span className=' text-primary'>Vision</span></h2>
-                                        <p className="para">Our vision is to lead the way in the online marketing landscape, setting new standards of excellence. We aspire to be the foremost choice for businesses seeking to conquer the digital realm. With our unwavering commitment to innovation and a dedicated team of SEO experts, we envision a future where we not only elevate online presences but also redefine the possibilities of digital success. We aim to continually expand our horizons, pushing boundaries, and leaving an indelible mark as the go-to partner for businesses of all sizes and industries in their quest for remarkable achievements online.</p>
+                                        <p className="para">Our vision at Top 100 Website Advertising is to be the undisputed leader in the website
+                                            advertising industry, setting new standards of excellence and innovation. We aspire to
+                                            be the go-to partner for businesses worldwide, guiding them towards unassailable
+                                            online prominence and success. We envision a future where our advanced strategies
+                                            and unwavering commitment to our client’s drive lasting positive change in the digital
+                                            landscape. Through sustainable growth and a relentless pursuit of excellence, we aim to
+                                            shape the future of website advertising and inspire businesses to achieve their full
+                                            potential online.</p>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +70,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            <section class=" pt-5">
+            <section class=" py-5">
                 <div class="container-fluid px-0">
                     <div class="row align-items-center">
                         <div class="col-lg-6 pe-lg-4 py-5 wow animate__animated animate__fadeInLeft">
@@ -66,7 +87,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            <TeamSec />
+            {/* <TeamSec /> */}
         </>
     )
 }

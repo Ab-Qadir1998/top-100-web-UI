@@ -42,7 +42,7 @@ const Testimonials = () => {
           </h2>
         </div>
       </div>
-      <div className="col-lg-11 col-sm-12 ms-auto">
+      <div className="col-lg-11 col-sm-12 mx-auto">
         <div className="testimonial-slider">
           <Slider {...settings}>
             {testimonialsData?.map((testimonial, i) => (
@@ -50,7 +50,7 @@ const Testimonials = () => {
                 <div className="testi__inner">
                   <h4 className="level-4 text-primary">{testimonial?.title}</h4>
                   <p className="level-5">{testimonial?.review}</p>
-                  <h5 className="level-4 text-primary text-end">
+                  <h5 className="level-5 text-primary text-end">
                     {testimonial?.testimoni}
                   </h5>
                 </div>

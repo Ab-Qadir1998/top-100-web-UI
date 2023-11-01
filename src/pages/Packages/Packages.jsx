@@ -80,7 +80,7 @@ const Packages = () => {
                                             </div>
                                           
 
-                                            <div className="mb-3 col-lg-4 mt-auto">
+                                            <div className="mb-3 col-md-4  mt-auto">
                                                 <ThemeButton text={"Let's Go!"} width={"w-100"} />
                                             </div>
                                         </div>

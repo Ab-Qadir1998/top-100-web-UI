@@ -7,22 +7,61 @@ const PrivacyPolicy = () => {
             <section className="text-section py-5">
                 <div className="container">
                     <div className="text-start col-md-10 mx-auto py-lg-5">
-                        <p className="para font-small">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam. Suscipit adipiscing bibendum est ultricies integer quis. Nibh praesent tristique magna sit amet purus gravida quis. Urna porttitor rhoncus dolor purus. Tellus mauris a diam maecenas. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Sit amet dictum sit amet justo donec enim diam. Aliquet bibendum enim facilisis gravida neque. Vitae congue eu consequat ac felis donec et odio. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Odio aenean sed adipiscing diam donec adipiscing. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt.
-                            <br />
-                            <br />
-                            Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Sit amet volutpat consequat mauris nunc congue nisi vitae. Leo a diam sollicitudin tempor id eu nisl. Mattis nunc sed blandit libero volutpat sed cras. Faucibus purus in massa tempor. Amet porttitor eget dolor morbi non arcu risus quis varius. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Phasellus faucibus scelerisque eleifend donec. Amet aliquam id diam maecenas ultricies mi eget mauris pharetra. Sit amet purus gravida quis blandit turpis cursus in. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Turpis nunc eget lorem dolor sed viverra ipsum. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Elit sed vulputate mi sit.
-                            <br />
-                            <br />
-                            In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Urna molestie at elementum eu facilisis sed odio morbi quis. Quis viverra nibh cras pulvinar mattis. Suscipit tellus mauris a diam maecenas. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Orci sagittis eu volutpat odio facilisis mauris sit. Magna sit amet purus gravida quis blandit turpis cursus. Et tortor consequat id porta nibh venenatis. Ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Ultrices in iaculis nunc sed augue lacus viverra vitae. Quis enim lobortis scelerisque fermentum dui. Tempor orci dapibus ultrices in iaculis nunc. Volutpat maecenas volutpat blandit aliquam etiam. Tellus molestie nunc non blandit massa enim nec dui nunc. Viverra ipsum nunc aliquet bibendum. Vestibulum morbi blandit cursus risus.
-                            <br />
-                            <br />
-                            Iaculis at erat pellentesque adipiscing commodo. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Habitant morbi tristique senectus et netus. Quam pellentesque nec nam aliquam sem et tortor consequat id. Quam elementum pulvinar etiam non quam. Scelerisque felis imperdiet proin fermentum leo vel. Vel orci porta non pulvinar. Ornare quam viverra orci sagittis. Libero enim sed faucibus turpis in eu mi bibendum. Eu tincidunt tortor aliquam nulla facilisi. Mattis rhoncus urna neque viverra justo nec ultrices dui. Habitasse platea dictumst quisque sagittis purus sit amet.
-                        </p>
+                       
+                        <p className=" para  font-small">
+                        <span className="d-block w-100 mb-3">Effective Date: 10/27/2023</span>
+                            At Top 100 Website Advertising, we are committed to safeguarding your privacy and
+                            ensuring the security of your personal information. This Privacy Policy outlines how we
+                            collect, use, disclose, and protect your data. By using our services, you consent to the
+                            practices described in this policy.</p>
+                        <h4 className="level-4 pt-4">Our Commitment to Your Privacy:</h4>
+                        <h4 className="level-4 pt-4">About Us:</h4>
+                        <p className=" para  font-small">At Top 100 Website Advertising, we are dedicated to revolutionizing online visibility
+                            through innovative website advertising solutions. Our mission is to empower individuals
+                            and businesses with excellence, integrity, and sustainability, shaping a brighter future for
+                            our global community.</p>
+                        <h4 className="level-4 pt-4">Information We Collect:</h4>
+                        <p className=" para  font-small"> Personal Information: When you use our services, we may collect personal information
+                            such as your name, contact information, and payment details.
+                             Usage Information: We may gather information about how you use our website and
+                            services, including IP addresses, device information, and browsing behavior.</p>
+                        <h4 className="level-4 pt-4">How We Use Your Information:</h4>
+                        <p className=" para  font-small"> To deliver our services and meet our mission and vision.
+                             To communicate with you, respond to your inquiries, and provide updates on our
+                            offerings.
+                             To process payments and transactions securely.</p>
+                        <h4 className="level-4 pt-4">Data Security:</h4>
+                        <p className=" para  font-small">We implement industry-standard security measures to protect your data from
+                            unauthorized access, disclosure, or alteration.</p>
+                        <h4 className="level-4 pt-4">Sharing Your Information:</h4>
+                        <p className=" para  font-small">We do not share your personal information with third parties without your consent,
+                            except as required by law or to fulfill our services.</p>
+                        <h4 className="level-4 pt-4">Cookies:</h4>
+                        <p className=" para  font-small">We use cookies to enhance your experience on our website and collect information for
+                            analytics and marketing purposes.</p>
+                        <h4 className="level-4 pt-4">Your Choices:</h4>
+                        <p className=" para  font-small">You can access, correct, or delete your personal information by contacting us. You may
+                            also unsubscribe from our marketing communications.</p>
+                        <h4 className="level-4 pt-4">Children's Privacy:</h4>
+                        <p className=" para  font-small">Our services are not directed to individuals under the age of 18. We do not knowingly
+                            collect data from children.</p>
+                        <h4 className="level-4 pt-4">Changes to this Privacy Policy:</h4>
+                        <p className=" para  font-small">We may update this policy to reflect changes in our practices. You are encouraged to
+                            review this policy periodically.</p>
+                        <h4 className="level-4 pt-4">Contact Us:</h4>
+                        <p className=" para  font-small">If you have any questions or concerns about this Privacy Policy, please contact us at
+                            [Contact Information].
+                            By using our services, you signify your understanding and acceptance of this Privacy
+                            Policy. Your continued use of our services following any changes to this policy will be
+                            deemed your acceptance of those changes.</p>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }
 export default PrivacyPolicy;
+
+
+
+

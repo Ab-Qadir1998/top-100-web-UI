@@ -13,12 +13,16 @@ const AboutSec = () => {
 
                 <div className="col-lg-6 p-4 p-sm-5 wow animate__animated animate__fadeInRight animate__delay-1s">
                     <h6 className='level-4 text-primary m-0'>About Us</h6>
-                    <h2 className="level-1">Your Trusted Partner in <span className='text-primary'>Digital Success</span></h2>
-                    <p className='para'>At Top 100 Website Advertising, our mission is to be your unwavering partner on the journey to online
-                        success. With years of experience and a team of seasoned SEO experts, we are committed to delivering
-                        top-notch SEO services that can elevate your online presence and drive tangible results. Our track
-                        record speaks volumes about our expertise, as we have consistently helped businesses of all sizes and
-                        industries achieve remarkable success in the digital realm.</p>
+                    
+                    <h2 className="level-1">Unlock Top-Tier Online Visibility with <span className='text-primary'>Our Top 100 Website Advertising Service</span></h2>
+                    <p className='para'>Experience unparalleled website advertising and website marketing expertise at Top 100
+Website Advertising. We pledge to position your website within the top 100 listings on
+Google and 1000 other search engines within a mere 45 days, or your advertising is on
+us. Elevate your online presence and secure top search engine rankings with us, riskfree. <br /><br />
+With a proven track record of success, we extend an invitation for you to enhance your
+online presence and witness your website ascend to the apex of search engine rankings.
+Don't miss this risk-free opportunity to achieve unrivaled online success. Place your
+website where it rightfully belongs: leading the way in search engine results.</p>
                     <ThemeButton text={"LEARN MORE"}  margin={"me-3"} anchor={true} linkTo={"/about-us"} />
                     {/* <ThemeButton text={"Get A Free Analysis"} /> */}
                 </div>

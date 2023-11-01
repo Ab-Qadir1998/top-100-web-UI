@@ -9,7 +9,7 @@ const ContactUs = () => {
         <>
             <PageBanner dark_heading="Contact" light_heading="us" />
             <GetInTouchSec />
-            <TeamSec />
+            {/* <TeamSec /> */}
         </>
     )
 }
