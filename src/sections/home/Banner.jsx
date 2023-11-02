@@ -11,7 +11,7 @@ const Banner = () => {
             <h1 className="banner__heading level-1 text-dark">
               Boost Your <span className="text-primary">Rankings</span> with Our
               Expert
-              <span>SEO Services!</span>
+              <span> SEO Services!</span>
             </h1>
             <p className="banner__para para">
               If your website doesn't reach the top results within 45 days, we

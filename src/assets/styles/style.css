@@ -266,9 +266,7 @@ nav .primary-btn {
   color: #fff !important;
 }
 
-nav .primary-btn:hover {
-  color: var(--primary-color) !important;
-}
+
 
 .navbar-nav {
   align-items: center;
@@ -823,7 +821,7 @@ textarea.form-control {
   .packages-sec {
     padding: 79px 0 60px;
     position: relative;
-}
+  }
 }
 
 .testimonials-sec {

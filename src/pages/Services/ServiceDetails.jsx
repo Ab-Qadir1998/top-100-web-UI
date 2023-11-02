@@ -28,7 +28,7 @@ const ServiceDetails = (props) => {
             id: 2,
             name_light: "Website",
             name_dark: "Marketing",
-            para: "Our strategic website marketing approach is tailored to attract relevant traffic, connecting with individuals genuinely interested in your company's products or services.More website visitors mean more opportunities to showcase your unique value, effectively reaching potential customers.",
+            para: "Our strategic website marketing approach is tailored to attract relevant traffic, connecting with individuals genuinely interested in your company's products or services. More website visitors mean more opportunities to showcase your unique value, effectively reaching potential customers.",
             image: serviceDetail3Img,
         },
         {

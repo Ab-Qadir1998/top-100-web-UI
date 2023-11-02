@@ -39,7 +39,7 @@ const TermsConditions = () => {
 
                         <h4 className="level-4 pt-4">5. Intellectual Property:</h4>
                         <p className=" para  font-small">All content, trademarks, logos, and intellectual property on our website are owned by
-                            Top 100 Website Advertising.You may not use, modify, or distribute our content
+                            Top 100 Website Advertising. You may not use, modify, or distribute our content
                             without written permission.</p>
 
                         <h4 className="level-4 pt-4">6. Privacy:</h4>
@@ -54,17 +54,17 @@ const TermsConditions = () => {
                             consequential damages, or loss of profits, arising from the use of our services.</p>
 
                         <h4 className="level-4 pt-4">9. Changes to Terms:</h4>
-                        <p className=" para  font-small">We may update these Terms & Conditions.It is your responsibility to review them
-                            periodically.Continued use of our services signifies your acceptance of the updated
+                        <p className=" para  font-small">We may update these Terms & Conditions. It is your responsibility to review them
+                            periodically. Continued use of our services signifies your acceptance of the updated
                             terms.</p>
 
                         <h4 className="level-4 pt-4">10. Governing Law:</h4>
-                        <p className=" para  font-small">These Terms & Conditions are governed by the laws of[Jurisdiction].Any disputes shall
-                            be resolved through arbitration or the courts of[Jurisdiction].</p>
+                        <p className=" para  font-small">These Terms & Conditions are governed by the laws of [Jurisdiction].Any disputes shall
+                            be resolved through arbitration or the courts of [Jurisdiction].</p>
 
                         <h4 className="level-4 pt-4">11. Contact Us:</h4>
                         <p className=" para  font-small">If you have any questions or concerns about these Terms & Conditions, please contact
-                            us at <a href="mailto: info@top100websiteadvertising.com">info@top100websiteadvertising.com.</a></p>
+                            us at <a href="mailto: info@top100websiteadvertising.com" className="text-primary">info@top100websiteadvertising.com.</a></p>
 
                         
                         <p className=" para  font-small">By using our services, you acknowledge and agree to these Terms & Conditions.</p>

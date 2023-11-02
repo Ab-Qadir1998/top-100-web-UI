@@ -8,7 +8,7 @@ const Testimonials = () => {
     slidesToShow: 2,
     autoplay: true,
     arrows: false,
-    centerMode: true,
+    centerMode: false,
     // centerPadding : '0 0 0 0',
     responsive: [
       {
@@ -37,8 +37,8 @@ const Testimonials = () => {
         <div className="text-center mb-5">
           <h6 className="level-4 text-primary m-0">TESTIMONIALS</h6>
           <h2 className="level-2">
-            Hear from Our
-            <span className="text-primary d-block">Satisfied Clients</span>
+          Our 
+            <span className="text-primary"> Satisfied Clients</span> speak for themselves:
           </h2>
         </div>
       </div>
