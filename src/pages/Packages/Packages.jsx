@@ -6,7 +6,7 @@ import PageBanner from '../../components/PagesBanner'
 const Packages = () => {
     return (
         <>
-        <PageBanner dark_heading='Packages' image_logo="wihtout-image" />
+            <PageBanner dark_heading='Packages' image_logo="wihtout-image" />
             <section className="package-section section-padding">
                 <div className="container">
                     <div className="package-start">
@@ -15,7 +15,11 @@ const Packages = () => {
                                 <div className="text-here py-5 pe-xl-3">
                                     <h6 className='level-4 text-primary m-0 '>Packages</h6>
                                     <h2 className="level-1 mb-3">Here’s what we <span className='text-primary d-block'>Charge for our service</span></h2>
-                                    <p className='para me-xl-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p>
+                                    <p className='para me-xl-3'>We offer the HTML Package for a one-time fee of $500. Your webmaster will seamlessly
+                                        integrate this package into your website. Following integration, our team at TOP 100
+                                        Advertising initiates your business's advertising campaign, priced at $250.00 per month.
+                                        If, as the website business owner, you ever find our performance unsatisfactory, there's
+                                        no obligation to make a payment.</p>
                                 </div>
                             </div>
                             <div className="col-md-6 px-lg-5 wow animate__animated animate__fadeInRight animate__delay-2s">
@@ -23,7 +27,16 @@ const Packages = () => {
                                     <h3 class="level-3">Small <span class="text-primary">Business</span> Website</h3>
                                     <h4 class="level-5">$500 HTML Package (one time fee), then $250 a month</h4>
                                     <div class="small-business-div-text">
-                                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.<br />Lorem ipsum dolor sit amet,</p><p class="para"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p><p class="para"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p>
+                                        {/* <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.<br />Lorem ipsum dolor sit amet,</p><p class="para"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p><p class="para"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod.</p> */}
+                                        <h4 className="level-5"> Our SEO services include:</h4>
+                                        <p className="para">
+                                            Keyword research and optimization <br />
+                                            On-page SEO enhancements <br />
+                                            Off-page SEO strategies <br />
+                                            Quality backlink building <br />
+                                            Content creation and optimization <br />
+                                            Regular performance monitoring and reporting <br />
+                                        </p>
                                     </div>
 
                                     <button type="" class="btn w-100 primary-btn  ">Place Order</button>
@@ -60,6 +73,10 @@ const Packages = () => {
                                                     Service
                                                     <select name="" id="" className="form-select form-control">
                                                         <option value="">Select Service</option>
+                                                        <option value="Website Advertising">Website Advertising</option>
+                                                        <option value="Website Marketing">Website Marketing</option>
+                                                        <option value="Internet Advertising">Internet Advertising</option>
+                                                        <option value="Website Digital Advertising">Website Digital Advertising</option>                                                        
                                                     </select>
                                                 </label>
                                             </div>
@@ -70,7 +87,7 @@ const Packages = () => {
                                                     placeholder={"Enter Email"}
                                                 />
                                             </div>
-                                            
+
                                             <div className="mb-3 col-md-8">
                                                 <InputField
                                                     label={"Website URL"}
@@ -78,7 +95,7 @@ const Packages = () => {
                                                     placeholder={"https://"}
                                                 />
                                             </div>
-                                          
+
 
                                             <div className="mb-3 col-md-4  mt-auto">
                                                 <ThemeButton text={"Let's Go!"} width={"w-100"} />

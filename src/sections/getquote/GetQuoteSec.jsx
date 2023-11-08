@@ -6,7 +6,7 @@ import { quoteImg } from '../../constants/mediaConstants';
 const GetQuoteSec = () => {
     return (
         <>
-        <PageBanner dark_heading="Get a" light_heading="Quote"  />
+            <PageBanner dark_heading="Get a" light_heading="Quote" />
             <section className="get-quote section-padding">
                 <div className="container-fluid">
                     <div className="get-quote-start">
@@ -34,6 +34,9 @@ const GetQuoteSec = () => {
                                                     Service
                                                     <select name="" id="" className="form-select form-control">
                                                         <option value="Website Advertising">Website Advertising</option>
+                                                        <option value="Website Marketing">Website Marketing</option>
+                                                        <option value="Internet Advertising">Internet Advertising</option>
+                                                        <option value="Website Digital Advertising">Website Digital Advertising</option>
                                                     </select>
                                                 </label>
                                             </div>

@@ -83,17 +83,18 @@ export const footerLinks = [
 ]
 
 export const contactInfo = [
+  // {
+  //   label: '1234 ABC STREET, SUITE 234 A 2345, CA, USA',
+  //   link: '/'
+  // },
+  
   {
-    label: '1234 ABC STREET, SUITE 234 A 2345, CA, USA',
-    link: '/'
+    label: 'top100websiteadvertising@gmail.com',
+    link: 'mailto: top100websiteadvertising@gmail.com'
   },
   {
-    label: '+1 234 567 8901',
-    link: 'tel:+12345678901'
-  },
-  {
-    label: 'info@yourwebsite.com',
-    link: 'mailto:info@yourwebsite.com'
+    label: '650-290-0789',
+    link: 'tel: 650-290-0789'
   },
 ]
 

@@ -14,15 +14,11 @@ const AboutUs = () => {
                             <div class="ps-xxl-5">
                                 <h6 class="level-4 text-primary m-0">About Us</h6>
                                 {/* <h2 class="level-1">Your Trusted Partner in<span class="text-primary"> Digital Success</span></h2> */}
-                                <h2 className="level-1">Unlock Top-Tier Online Visibility with <span className='text-primary'>Our Top 100 Website Advertising Service</span></h2>
-                                <p className='para'>Experience unparalleled website advertising and website marketing expertise at Top 100
-                                    Website Advertising. We pledge to position your website within the top 100 listings on
-                                    Google and 1000 other search engines within a mere 45 days, or your advertising is on
-                                    us. Elevate your online presence and secure top search engine rankings with us, riskfree. <br /><br />
-                                    With a proven track record of success, we extend an invitation for you to enhance your
-                                    online presence and witness your website ascend to the apex of search engine rankings.
-                                    Don't miss this risk-free opportunity to achieve unrivaled online success. Place your
-                                    website where it rightfully belongs: leading the way in search engine results.</p>
+                                <h2 className="level-1">Discovering Our Narrative: <span className='text-primary'>Pioneering Website Advertising Innovation</span></h2>
+                                <p className='para'>Elevate your online visibility to new heights with our Top 100 Website Advertising
+                                    service. We offer a guarantee: Your website will achieve top 100 rankings on Google and
+                                    1000 other search engines within 45 days, or you won't pay a dime for our advertising
+                                    services. Join us to boost your online presence confidently.</p>
                                 <Link to="/services" class="btn  primary-btn  ">View Services</Link>
                             </div>
                         </div>

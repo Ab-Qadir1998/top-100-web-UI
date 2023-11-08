@@ -37,6 +37,10 @@ const Banner = () => {
                         Service
                         <select name="" id="" className="form-select form-control">
                           <option value="">Select Service</option>
+                          <option value="Website Advertising">Website Advertising</option>
+                          <option value="Website Marketing">Website Marketing</option>
+                          <option value="Internet Advertising">Internet Advertising</option>
+                          <option value="Website Digital Advertising">Website Digital Advertising</option>
                         </select>
                       </label>
                     </div>
@@ -60,13 +64,13 @@ const Banner = () => {
                         type={"email"}
                         placeholder={"John Doe"}
                       /> */}
-                      
+
                       <InputField
                         label={"Website URL"}
                         type={"text"}
                         placeholder={"https://"}
                       />
-                    
+
                     </div>
                     <div className="col-lg-5 mt-3 mt-lg-0">
                       <ThemeButton

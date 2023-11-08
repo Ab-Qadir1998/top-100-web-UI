@@ -33,9 +33,9 @@ const ServiceDetails = (props) => {
         },
         {
             id: 3,
-            name_light: "Website Digital",
-            name_dark: "Advertising",
-            para: "Our website digital advertising strategies are a dynamic force in today's online marketplace. Through data-driven campaigns on your website and beyond, we enhance your digital footprint. Our approach taps into the power of various online channels, from search engines and social media to targeted display networks, ensuring your brand is prominently showcased. By focusing on precision targeting and compelling content, we enable your business to engage with the right audience, driving website traffic, bolstering brand awareness, and ultimately, achieving tangible results in the everevolving digital landscape. ",
+            name_dark: "Internet ",
+            name_light: "Advertising",
+            para: "In the ever-evolving digital age, internet advertising strategically deploys promotional efforts across the vast online landscape. This multifaceted approach spans search engines, social media platforms, display networks, and more, allowing your brand to connect with a diverse and widespread audience. Utilizing precise targeting and engaging content, we enable your business to effectively reach and engage potential customers, ensuring a strong online presence and measurable results in today's competitive digital environment.",
             image: serviceDetail4Img,
         },
         {
@@ -69,7 +69,7 @@ const ServiceDetails = (props) => {
                                 <h6 className='level-4 text-primary m-0'>Services</h6>
                                 <h2 className="level-1">{selectedService.name_dark}<span className='text-primary'> {selectedService.name_light}</span></h2>
                                 <p className='para'>{selectedService.para}</p>
-                                <ThemeButton text={"Get a Quote"} />
+                                <ThemeButton text={"Get a Quote"} anchor={true} linkTo={'/get-quote'}  />
                             </div>
                         </div>
                         <div className="col-lg-6 ps-lg-4 py-5 wow animate__animated animate__fadeInLeft">

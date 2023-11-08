@@ -27,7 +27,7 @@ const GetInTouchSec = () => {
                                                     </div>
                                                     <div className="text-here">
                                                         <h6 className="level-5 mb-0">Our Email</h6>
-                                                        <a href="mailto: Hotelbooking@gmail.com" className="level-5 text-dark font-small">Hotelbooking@gmail.com</a>
+                                                        <a href="mailto: top100websiteadvertising@gmail.com" className="level-5 text-dark font-small">top100websiteadvertising@gmail.com</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -41,11 +41,11 @@ const GetInTouchSec = () => {
                                                     </div>
                                                     <div className="text-here">
                                                         <h6 className="level-5 mb-0">Phone number</h6>
-                                                        <a href="tel: (555) 123-4567" className="level-5 text-dark font-small">(555) 123-4567</a>
+                                                        <a href="tel: 650-290-0789" className="level-5 text-dark font-small">650-290-0789</a>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-xl-8 mt-4">
+                                            {/* <div className="col-xl-8 mt-4">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="21" height="30" viewBox="0 0 25 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +58,7 @@ const GetInTouchSec = () => {
                                                         <span className="level-5 text-dark font-small">123 Elm Street Springfield, Anytown 56789 United States</span>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
