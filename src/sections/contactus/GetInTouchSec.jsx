@@ -15,7 +15,7 @@ const GetInTouchSec = () => {
                                     <h2 class="level-1 line-height-1 text-primary">Let us know what’s on your mind.</h2>
                                     <div className="contact-info-list">
                                         <div className="row mt-4">
-                                            <div className="col-xl-6 col-lg-12 mt-4 wow animate__animated animate__fadeInLeft animate__delay-1s">
+                                            <div className="     col-lg-12 mt-4 wow animate__animated animate__fadeInLeft animate__delay-1s">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ const GetInTouchSec = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-xl-6 col-lg-12 mt-4 wow animate__animated animate__fadeInRight animate__delay-1s">
+                                            <div className="     col-lg-12 mt-4 wow animate__animated animate__fadeInRight animate__delay-1s">
                                                 <div className="single-info d-flex gap-3 align-items-center">
                                                     <div className="icon d-flex align-items-center justify-content-center">
                                                         <svg width="26" height="26" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -16,7 +16,7 @@ const PackagesSec = () => {
             <p className='para me-xl-3'>We offer the HTML Package for a one-time fee of $500. Your webmaster will seamlessly
               integrate this package into your website. Following integration, our team at TOP 100
               Advertising initiates your business's advertising campaign, priced at $250.00 per month.
-              If, as the website business owner, you ever find our performance unsatisfactory, there's
+              Should you, as the website business owner, you ever find our performance unsatisfactory, there's
               no obligation to make a payment.</p>
 
 

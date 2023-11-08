@@ -25,7 +25,7 @@ const servicesData = [
     {
         id: 4,
         first_name: "Internet",
-        last_name: " Marketing ",
+        last_name: " Advertising ",
         para: para,
         image: service4Img,
     },

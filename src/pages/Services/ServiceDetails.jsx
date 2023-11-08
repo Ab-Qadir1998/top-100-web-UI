@@ -19,8 +19,8 @@ const ServiceDetails = (props) => {
     const serviceData1 = [
         {
             id: 1,
-            name_light: "Website",
-            name_dark: "Advertising",
+            name_light: "Advertising",
+            name_dark: "Website",
             para: "In today's dynamic digital landscape, website advertising is the cornerstone of elevating your online presence. We employ diverse online advertising techniques to prominently position your brand across the internet, where potential customers actively engage. This strategy empowers your business to connect with the right audience, increase brand awareness, and generate valuable leads through platforms like search engines, social media, and display networks. ",
             image: serviceDetail1Img,
         },
@@ -41,7 +41,7 @@ const ServiceDetails = (props) => {
         {
             id: 4,
             name_light: "Advertising",
-            name_dark: "Internet",
+            name_dark: "Website Digital ",
             para: "In the ever-evolving digital age, internet advertising strategically deploys promotional efforts across the vast online landscape. This multifaceted approach spans search engines, social media platforms, display networks, and more, allowing your brand to connect with a diverse and widespread audience. Utilizing precise targeting and engaging content, we enable your business to effectively reach and engage potential customers, ensuring a strong online presence and measurable results in today's competitive digital environment",
             image: serviceDetail5Img,
         },

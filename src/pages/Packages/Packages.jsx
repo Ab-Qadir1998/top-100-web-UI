@@ -18,7 +18,7 @@ const Packages = () => {
                                     <p className='para me-xl-3'>We offer the HTML Package for a one-time fee of $500. Your webmaster will seamlessly
                                         integrate this package into your website. Following integration, our team at TOP 100
                                         Advertising initiates your business's advertising campaign, priced at $250.00 per month.
-                                        If, as the website business owner, you ever find our performance unsatisfactory, there's
+                                        Should you, as the website business owner, you ever find our performance unsatisfactory, there's
                                         no obligation to make a payment.</p>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ const Packages = () => {
                                 <div className="text-here">
                                     <h6 className='level-5 text-primary m-0 '>Do you want a free analysis of your website?</h6>
                                     <h2 className="level-2">Get a <span className='text-primary'>Quote Now!</span></h2>
-                                    <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    {/* <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p> */}
                                 </div>
                             </div>
                             <div className="col-lg-7 mt-4 mt-lg-0">
