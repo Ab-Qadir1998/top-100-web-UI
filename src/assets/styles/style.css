@@ -169,38 +169,39 @@ a.primary-btn:hover {
  */
 
 
- .secondary-btn,
- .primary-btn {
-   position: relative;
-   overflow: hidden;
-   transition: all 0.6s;
- }
- 
- .secondary-btn:hover,
- .primary-btn:hover {
-   transform: scale(1.05); /* Adjust the scale factor as needed for the grow effect */
-   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
- }
- 
- .secondary-btn:hover::before,
- .primary-btn:hover::before {
-   background: transparent;
-   transition: all 0.6s;
- }
- 
- .secondary-btn:hover::after,
- .primary-btn:hover::after {
-   background: transparent;
-   transition: all 0.6s;
- }
- 
- .secondary-btn:hover,
- a.secondary-btn:hover,
- .primary-btn:hover,
- a.primary-btn:hover {
-   color:#FFF !important;
-   z-index: 999
- }
+.secondary-btn,
+.primary-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.6s;
+}
+
+.secondary-btn:hover,
+.primary-btn:hover {
+  transform: scale(1.05);
+  /* Adjust the scale factor as needed for the grow effect */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  */
+}
+
+.secondary-btn:hover::before,
+.primary-btn:hover::before {
+  background: transparent;
+  transition: all 0.6s;
+}
+
+.secondary-btn:hover::after,
+.primary-btn:hover::after {
+  background: transparent;
+  transition: all 0.6s;
+}
+
+.secondary-btn:hover,
+a.secondary-btn:hover,
+.primary-btn:hover,
+a.primary-btn:hover {
+  color: #FFF !important;
+  z-index: 999
+}
 
 
 
@@ -250,9 +251,11 @@ a.primary-btn:hover {
   background-size: contain;
   padding: 27px 0px;
 }
+
 .page-banner-start.wihtout-image {
   background-image: unset;
 }
+
 /* Universal banner Css End Here */
 /* Header With out Login Css Start Here */
 
@@ -392,9 +395,11 @@ nav .primary-btn {
 .btn-flex {
   display: flex;
 }
+
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
+
 /* Header With out Login Css End Here */
 
 /* Mobile Header Css Start Here */
@@ -473,7 +478,7 @@ nav .primary-btn {
     left: -50px;
   }
 
- 
+
 
 
   .mainbannerbg .banner {
@@ -738,12 +743,12 @@ textarea.form-control {
   margin: 30px -29px 50px 0;
   height: 200px;
   overflow: auto;
-  padding-right: 27px ;
+  padding-right: 27px;
 }
 
 .small-business-div-text::-webkit-scrollbar {
   width: 8px;
-  
+
 }
 
 .small-business-div-text::-webkit-scrollbar-thumb {
@@ -777,19 +782,59 @@ textarea.form-control {
   .packages-text {
     font-size: 110px;
   }
+
   .packages-sec {
     padding: 111px 0 80px;
     position: relative;
-}
+  }
 }
 
 @media (max-width: 991px) {
   .packages-text {
     font-size: 90px;
   }
+
   .small-business-div-text {
     margin-right: -10px;
     padding-right: 10px;
+  }
+
+  .navbar-nav {
+    align-items: start !important;
+    padding-left: 17px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: start;
+  }
+
+  .dropdown-item {
+    border-bottom: 0px;
+  }
+
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    border: 0px;
+  }
+
+  .dropdown-item {
+    padding: 0px;
+  }
+
+  .navbar-nav .nav-item.dropdown .dropdown-menu li {
+    padding: 4px 12px;
+  }
+
+  .dropdown-item i.fas.fa-chevron-right {
+    display: none;
+  }
+
+  nav .primary-btn {
+    margin-left: 0px !important;
+  }
+
+  .offcanvas-header .btn-close {
+    margin-right: 7px;
+    margin-top: 11px;
   }
 }
 
@@ -815,9 +860,11 @@ textarea.form-control {
     font-size: 50px;
     letter-spacing: 10px;
   }
+
   .packages-text {
     top: 0px;
   }
+
   .packages-sec {
     padding: 79px 0 60px;
     position: relative;
@@ -911,13 +958,15 @@ footer ul.contact-info li {
   font-family: "Kenit", sans-serif;
   font-weight: 300;
 }
+
 .service-search-for {
   background-color: #EBFAFA;
   padding: 54px 0px 25px;
 }
+
 @media (max-width: 991px) {
   .services-sec .card {
-    
+
     padding: 28px 20px;
   }
 
@@ -949,12 +998,14 @@ footer ul.contact-info li {
 .single-info .text-here {
   width: calc(100% - 92px);
 }
+
 @media (max-width: 1400px) {
   .single-info .icon {
     width: 54px;
     height: 54px;
+  }
 }
-}
+
 /* Contact Form Css End Here */
 /* Faqs Css Start Here */
 .faq-section {
@@ -983,9 +1034,11 @@ footer ul.contact-info li {
   filter: brightness(0);
   scale: 1.1;
 }
-.faqs-list .single-faq  .accordion-button:not(.collapsed) {
+
+.faqs-list .single-faq .accordion-button:not(.collapsed) {
   box-shadow: none;
 }
+
 /* Faqs Css End Here */
 /* Services Css Start Here */
 .services-start .single-service {

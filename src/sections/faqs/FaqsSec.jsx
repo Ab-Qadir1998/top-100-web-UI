@@ -1,6 +1,6 @@
 import React from "react";
 const FaqSec = () => {
-    const answer = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent tristique magna sit amet. Facilisis leo vel fringilla est ullamcorper eget. ";
+    // const answer = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent tristique magna sit amet. Facilisis leo vel fringilla est ullamcorper eget. ";
     const faqList = [
         {
             question: "How do I get the marketing services on your website?",
