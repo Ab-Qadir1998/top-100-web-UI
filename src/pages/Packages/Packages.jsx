@@ -15,11 +15,10 @@ const Packages = () => {
                                 <div className="text-here py-5 pe-xl-3">
                                     <h6 className='level-4 text-primary m-0 '>Packages</h6>
                                     <h2 className="level-1 mb-3">Here’s what we <span className='text-primary d-block'>Charge for our service</span></h2>
-                                    <p className='para me-xl-3'>We offer the HTML Package for a one-time fee of $500. Your webmaster will seamlessly
-                                        integrate this package into your website. Following integration, our team at TOP 100
-                                        Advertising initiates your business's advertising campaign, priced at $250.00 per month.
-                                        Should you, as the website business owner, you ever find our performance unsatisfactory, there's
-                                        no obligation to make a payment.</p>
+                                    <p className='para me-xl-3'>We offer you our HTML Package, available for a one-time fee of $500. Your webmaster will seamlessly
+                                        integrate this package into your website. Following the integration, our team at TOP 100 Advertising
+                                        initiates your business's advertising campaign, priced at $250.00 per month. Should you, as the owner of the website business, ever find our performance unsatisfactory, there's no obligation to make payment.
+                                    </p>
                                 </div>
                             </div>
                             <div className="col-md-6 px-lg-5 wow animate__animated animate__fadeInRight animate__delay-2s">
@@ -76,7 +75,7 @@ const Packages = () => {
                                                         <option value="Website Advertising">Website Advertising</option>
                                                         <option value="Website Marketing">Website Marketing</option>
                                                         <option value="Internet Advertising">Internet Advertising</option>
-                                                        <option value="Website Digital Advertising">Website Digital Advertising</option>                                                        
+                                                        <option value="Website Digital Advertising">Website Digital Advertising</option>
                                                     </select>
                                                 </label>
                                             </div>
