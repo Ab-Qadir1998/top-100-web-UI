@@ -2,7 +2,7 @@ import React from 'react'
 import InputField from '../../components/InputField'
 import ThemeButton from '../../components/ThemeButton'
 import PageBanner from '../../components/PagesBanner'
-
+import { Link } from 'react-router-dom'
 const Packages = () => {
     return (
         <>
@@ -38,7 +38,7 @@ const Packages = () => {
                                         </p>
                                     </div>
 
-                                    <button type="" class="btn w-100 primary-btn  ">Place Order</button>
+                                    <Link to="/checkout" class="btn w-100 primary-btn  ">Place Order</Link>
                                 </div>
                             </div>
                         </div>

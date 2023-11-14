@@ -27,7 +27,7 @@ const GetInTouchSec = () => {
                                                     </div>
                                                     <div className="text-here">
                                                         <h6 className="level-5 mb-0">Our Email</h6>
-                                                        <a href="mailto: top100websiteadvertising@gmail.com" className="level-5 text-dark font-small">top100websiteadvertising@gmail.com</a>
+                                                        <a href="mailto: top100websiteadvertising@gmail.com" className="level-5 text-dark font-small" style={{wordWrap: "wrap"}}>top100websiteadvertising@gmail.com</a>
                                                     </div>
                                                 </div>
                                             </div>
