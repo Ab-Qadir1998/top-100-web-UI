@@ -2,8 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { logo } from "../../constants/mediaConstants";
 import { navItems } from "../../constants/data";
-
+import { useState } from "react";
 const Header = () => {
+  const [menu, setMenu] = useState();
+  const toggleMenu = () => {
+    setMenu(!menu);
+  }
   return (
     <header className="without-login wow animate__animated animate__fadeInUp">
       <div className="sec-header">
@@ -53,6 +57,7 @@ const Header = () => {
                     </li>
                   ) : (
                     <li className="nav-item dropdown" key={i}>
+                      <span className="drop-item-icon d-flex">
                       <Link
                         aria-current="page"
                         to={item?.link}
@@ -64,8 +69,11 @@ const Header = () => {
                       >
                         {item?.label}
                       </Link>
+                      <button  
+                         className="drop-icon dropdown-toggle " onClick={toggleMenu}></button>
+                      </span>
                       {item?.subItems && (
-                        <ul className="dropdown-menu">
+                        <ul className={`dropdown-menu ${(menu) ? 'active' : ''}`}>
                           {item?.subItems?.map((subItem, i) => (
                             <li key={i}>
                               <Link className="dropdown-item" to={subItem?.link}>
