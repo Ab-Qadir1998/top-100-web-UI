@@ -15,19 +15,19 @@ export const navItems = [
     subItems: [
       {
         label: "Website Advertising",
-        link: "/service/1",
+        link: "/service/advertising-website",
       },
       {
         label: "Website Marketing",
-        link: "/service/2",
+        link: "/service/website-marketing",
       },
       {
         label: "Internet Advertising",
-        link: "/service/3",
+        link: "/service/advertising-internet",
       },
       {
         label: "Website Digital Advertising",
-        link: "/service/4",
+        link: "/service/advertising-website-digital",
       },
     ],
   },
@@ -103,19 +103,22 @@ export const servicesCardData = [
     img: servicesImgOne,
     name: 'Website Advertising',
     para: "Our Mission is to be your unwavering partner on the journey to online success.",
-    id: "1"
+    id: "1",
+    slug: "advertising-website"
   },
   {
     img: servicesImgTwo,
     name: 'Website Marketing',
     para: "Our Mission is to be your unwavering partner on the journey to online success.",
-    id: "2"
+    id: "2",
+    slug: "website-marketing"
   },
   {
     img: servicesImgThree,
     name: 'Internet Advertising',
     para: "Our Mission is to be your unwavering partner on the journey to online success.",
-    id: "3"
+    id: "3",
+    slug: "advertising-internet"
   },
 ]
 

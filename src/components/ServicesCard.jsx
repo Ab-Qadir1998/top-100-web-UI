@@ -12,7 +12,7 @@ const ServicesCard = ({ card }) => {
       <h3 className="level-3 mb-2">{card?.name}</h3>
       <p className="para text-primary">{card?.para}</p>
       </div>
-      <Link to={`/service/${card?.id}`} className="level-5 text-primary">
+      <Link to={`/service/${card?.slug}`} className="level-5 text-primary">
         LEARN MORE
       </Link>
     </div>

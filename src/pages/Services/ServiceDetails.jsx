@@ -23,6 +23,7 @@ const ServiceDetails = (props) => {
             name_dark: "Website",
             para: "In today's dynamic digital landscape, website advertising is the cornerstone of elevating your online presence. We employ diverse online advertising techniques to prominently position your brand across the internet, where potential customers actively engage. This strategy empowers your business to connect with the right audience, increase brand awareness, and generate valuable leads through platforms like search engines, social media, and display networks. ",
             image: serviceDetail1Img,
+            slug: "advertising-website"
         },
         {
             id: 2,
@@ -30,6 +31,7 @@ const ServiceDetails = (props) => {
             name_dark: "Marketing",
             para: "Our strategic website marketing approach is tailored to attract relevant traffic, connecting with individuals genuinely interested in your company's products or services. More website visitors mean more opportunities to showcase your unique value, effectively reaching potential customers.",
             image: serviceDetail3Img,
+            slug: "website-marketing"
         },
         {
             id: 3,
@@ -37,6 +39,7 @@ const ServiceDetails = (props) => {
             name_light: "Advertising",
             para: "In the ever-evolving digital age, internet advertising strategically deploys promotional efforts across the vast online landscape. This multifaceted approach spans search engines, social media platforms, display networks, and more, allowing your brand to connect with a diverse and widespread audience. Utilizing precise targeting and engaging content, we enable your business to effectively reach and engage potential customers, ensuring a strong online presence and measurable results in today's competitive digital environment.",
             image: serviceDetail4Img,
+            slug: "advertising-internet"
         },
         {
             id: 4,
@@ -44,6 +47,7 @@ const ServiceDetails = (props) => {
             name_dark: "Website Digital ",
             para: "In the ever-evolving digital age, internet advertising strategically deploys promotional efforts across the vast online landscape. This multifaceted approach spans search engines, social media platforms, display networks, and more, allowing your brand to connect with a diverse and widespread audience. Utilizing precise targeting and engaging content, we enable your business to effectively reach and engage potential customers, ensuring a strong online presence and measurable results in today's competitive digital environment",
             image: serviceDetail5Img,
+            slug: "advertising-website-digital"
         },
     ];
     const serviceData2 = {
@@ -54,7 +58,9 @@ const ServiceDetails = (props) => {
         image: serviceDetail2Img,
     }
     const { id } = useParams();
-    const selectedService = serviceData1.find(service => service.id === parseInt(id, 10));
+
+    const selectedService = serviceData1.find(service => service.slug === id);
+
 
     const columns = 3;
 
@@ -69,7 +75,7 @@ const ServiceDetails = (props) => {
                                 <h6 className='level-4 text-primary m-0'>Services</h6>
                                 <h2 className="level-1">{selectedService.name_dark}<span className='text-primary'> {selectedService.name_light}</span></h2>
                                 <p className='para'>{selectedService.para}</p>
-                                <ThemeButton text={"Get a Quote"} anchor={true} linkTo={'/get-quote'}  />
+                                <ThemeButton text={"Get a Quote"} anchor={true} linkTo={'/get-quote'} />
                             </div>
                         </div>
                         <div className="col-lg-6 ps-lg-4 py-5 wow animate__animated animate__fadeInLeft">
@@ -107,8 +113,8 @@ const ServiceDetails = (props) => {
                             <div className="row">
                                 {
                                     servicesData.map((service, index) => (
-                                        service.id != id &&
-                                        <ServiceItem first_name={service.first_name} columns={columns} id={service.id} last_name={service.last_name} para={service.para} image={service.image} key={index} />
+                                        service.slug != id &&
+                                        <ServiceItem first_name={service.first_name} columns={columns} id={service.slug} last_name={service.last_name} para={service.para} image={service.image} key={index} />
                                     ))
                                 }
                             </div>

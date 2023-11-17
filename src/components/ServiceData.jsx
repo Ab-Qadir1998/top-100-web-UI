@@ -7,6 +7,7 @@ const servicesData = [
         last_name: "Marketing",
         para: para,
         image: service1Img,
+        slug: "website-marketing"
     },
     {
         id: 1,
@@ -14,6 +15,7 @@ const servicesData = [
         last_name: "Advertising",
         para: para,
         image: service2Img,
+        slug: "advertising-website"
     },
     {
         id: 3,
@@ -21,6 +23,7 @@ const servicesData = [
         last_name: " Digital Advertising",
         para: para,
         image: service3Img,
+        slug: "advertising-website-digital"
     },
     {
         id: 4,
@@ -28,6 +31,8 @@ const servicesData = [
         last_name: " Advertising ",
         para: para,
         image: service4Img,
+        slug: "advertising-internet"
+        
     },
 
 ]
