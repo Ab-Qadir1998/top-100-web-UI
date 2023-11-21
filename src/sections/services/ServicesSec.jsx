@@ -11,7 +11,7 @@ const ServicesSec = () => {
                         <div className="row">
                             {
                                 servicesData.map((service, index) => (
-                                    <ServiceItem first_name={service.first_name} columns={columns} id={service.id} last_name={service.last_name} para={service.para} image={service.image} key={index} />
+                                    <ServiceItem first_name={service.first_name} columns={columns} id={service.slug} last_name={service.last_name} para={service.para} image={service.image} key={index} />
                                 ))
                             }
                         </div>

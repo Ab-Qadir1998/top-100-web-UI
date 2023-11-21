@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 ">
             <div className="footer-content logo-content">
               <div className="logo-box">
-                <a href="index.php">
+                <Link to="/">
                   <figure>
                     <img
                       src={logo}
@@ -19,7 +19,7 @@ const Footer = () => {
                       className="img-fluid"
                     />
                   </figure>
-                </a>
+                </Link>
               </div>
               <p>
                 At Top 100 Website Advertising, we're your dedicated partner in
