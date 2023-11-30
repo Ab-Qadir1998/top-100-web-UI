@@ -53,7 +53,7 @@ const AboutUs = () => {
                                         <h2 className="level-2">Our <span className=' text-primary'>Vision</span></h2>
                                         <p className="para">Our vision at Top 100 Website Advertising is to be the undisputed leader in the website
                                             advertising industry, setting new standards of excellence and innovation. We aspire to
-                                            be the go-to partner for businesses worldwide, guiding them towards unassailable
+                                            be the go-to partner for businesses worldwide, guiding them towards
                                             online prominence and success. We envision a future where our advanced strategies
                                             and unwavering commitment to our client’s drive lasting positive change in the digital
                                             landscape. Through sustainable growth and a relentless pursuit of excellence, we aim to
@@ -75,7 +75,7 @@ const AboutUs = () => {
                         <div class="col-lg-6 ms-auto px-4  px-md-5 py-lg-4  py-md-5 wow animate__animated animate__fadeInRight">
                             <div class="pe-xxl-5">
                                 <h6 class="level-4 text-primary m-0">Services</h6>
-                                <h2 class="level-1">A look back at brief<span class="text-primary"> History of Top 100 Adverts </span></h2>
+                                <h2 class="level-1">A look back at brief<span class="text-primary"> History of Top 100 Advertising </span></h2>
                                 <p class="para">Our primary focus is on search engine optimization (SEO), a critical aspect of any successful online strategy. Through meticulous keyword research, content optimization, and cutting-edge SEO techniques, we have consistently propelled our clients' websites to the top of search engine rankings. What sets us apart is our unwavering commitment to our clients' success. That's why we confidently offer a guarantee: if we don't achieve top search engine rankings for your website within 45 days, we'll refund your money. It's a testament to our confidence in our abilities and our dedication to delivering results.</p>
                                 <Link to="/services" class="btn  primary-btn  ">View Services</Link>
                             </div>
