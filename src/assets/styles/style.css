@@ -980,7 +980,7 @@ footer ul.menu-links.menus.quick-links li {
 footer ul.contact-info {
   padding: 0;
   /* column-count: 2; */
-  margin: 20px 0 0;
+  margin: 0px 0 0;
 }
 
 footer ul.contact-info li {
