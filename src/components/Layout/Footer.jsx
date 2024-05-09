@@ -61,7 +61,8 @@ const Footer = () => {
                   </div>
                 </div>
               </form> */}
-									<ul className="contact-info">
+									<ul className="contact-info  footer-wrapper">
+									<li className="mb-2"><h4>Let's Connet</h4></li>
 										{contactInfo?.map((info, i) => (
 											<li key={i}>
 												<a href={info?.link} className="para text-white ">

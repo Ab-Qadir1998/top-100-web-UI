@@ -83,11 +83,7 @@ export const footerLinks = [
 ]
 
 export const contactInfo = [
-  // {
-  //   label: '1234 ABC STREET, SUITE 234 A 2345, CA, USA',
-  //   link: '/'
-  // },
-  
+ 
   {
     label: 'top100websiteadvertising@gmail.com',
     link: 'mailto: top100websiteadvertising@gmail.com'
