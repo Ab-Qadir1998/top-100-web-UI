@@ -3,27 +3,27 @@ import ThemeButton from "../../components/ThemeButton";
 import { bannerImg } from "../../constants/mediaConstants";
 
 const Banner = () => {
-  return (
-    <section className="mainbannerbg mb-4">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-7 wow animate__animated animate__fadeInLeft animate__delay-1s">
-            <h1 className="banner__heading level-1 text-dark">
-              Boost Your <span className="text-primary">Rankings</span> with Our
-              Expert
-              <span> SEO Services!</span>
-            </h1>
-            <p className="banner__para para">
-              If your website doesn't reach the top results within 45 days, we
-              won't charge you a penny—because we're that confident in our SEO
-              process.
-            </p>
-            <div className="find">
-              <h4 className="text-primary mt-5 mb-3 level-4">
-                Get a free analysis of your website today!
-              </h4>
-              <div className="input-group mb-3">
-                <form>
+	return (
+		<section className="mainbannerbg mb-4">
+			<div className="container">
+				<div className="row align-items-center">
+					<div className="col-lg-7 wow animate__animated animate__fadeInLeft animate__delay-1s">
+						<h1 className="banner__heading level-1 text-dark">
+							Boost Your <span className="text-primary">Rankings</span> with Our
+							Expert
+							<span> SEO Services!</span>
+						</h1>
+						<p className="banner__para para">
+							If your website doesn't reach the top results within 45 days, we
+							won't charge you a penny—because we're that confident in our SEO
+							process.
+						</p>
+						<div className="find">
+							<h4 className="text-primary mt-5 mb-3 level-4">
+								Get a free analysis of your website today!
+							</h4>
+							<div className="input-group mb-3">
+								{/* <form>
                   <div className="row align-items-end">
                     <div className="mb-3 col-lg-4">
                       <InputField
@@ -44,13 +44,6 @@ const Banner = () => {
                         </select>
                       </label>
                     </div>
-                    {/* <div className="mb-3 col-lg-4">
-                      <InputField
-                        label={"Website URL"}
-                        type={"text"}
-                        placeholder={"https://"}
-                      />
-                    </div> */}
                     <div className="mb-3 col-lg-4">
                       <InputField
                         label={"Email address"}
@@ -59,12 +52,6 @@ const Banner = () => {
                       />
                     </div>
                     <div className="col-lg-7">
-                      {/* <InputField
-                        label={"Email address"}
-                        type={"email"}
-                        placeholder={"John Doe"}
-                      /> */}
-
                       <InputField
                         label={"Website URL"}
                         type={"text"}
@@ -80,25 +67,54 @@ const Banner = () => {
                       />
                     </div>
                   </div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-5 mt-5 mt-lg-4-0 wow animate__animated animate__fadeInRight animate__delay-1s">
-            <div className="banner__img position-relative">
-              <figure>
-                <img
-                  src={bannerImg}
-                  className="img-fluid w-100"
-                  alt="top-100-web"
-                />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+                </form> */}
+								<div className="row">
+									<div className="col-lg-12 wow animate__animated animate__fadeInLeft animate__delay-1s">
+										<div className="single-info d-flex gap-3 align-items-center">
+											<div className="text-here">
+												<h6 className="level-5 mb-0">Our Email</h6>
+												<a
+													href="mailto: top100websiteadvertising@gmail.com"
+													className="level-5 text-dark font-small"
+													style={{ wordWrap: "wrap" }}
+												>
+													top100websiteadvertising@gmail.com
+												</a>
+											</div>
+										</div>
+									</div>
+									<div className="col-lg-12 mt-4 wow animate__animated animate__fadeInRight animate__delay-1s">
+										<div className="single-info d-flex gap-3 align-items-center">
+											<div className="text-here">
+												<h6 className="level-5 mb-0">Phone number</h6>
+												<a
+													href="tel: 650-290-0789"
+													className="level-5 text-dark font-small"
+												>
+													650-290-0789
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="col-lg-5 mt-5 mt-lg-4-0 wow animate__animated animate__fadeInRight animate__delay-1s">
+						<div className="banner__img position-relative">
+							<figure>
+								<img
+									src={bannerImg}
+									className="img-fluid w-100"
+									alt="top-100-web"
+								/>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default Banner;

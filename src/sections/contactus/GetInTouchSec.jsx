@@ -84,7 +84,7 @@ const GetInTouchSec = () => {
 									</div>
 								</div>
 							</div>
-							<div className="col-md-5 mt-5 mt-md-0 wow animate__animated animate__fadeInRight animate__delay-1s">
+							{/* <div className="col-md-5 mt-5 mt-md-0 wow animate__animated animate__fadeInRight animate__delay-1s">
 								<div className="contact-form">
 									<form>
 										<div className="row">
@@ -123,7 +123,7 @@ const GetInTouchSec = () => {
 										</div>
 									</form>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

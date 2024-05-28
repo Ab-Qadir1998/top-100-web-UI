@@ -63,7 +63,7 @@ const Footer = () => {
               </form> */}
 									<ul className="contact-info  footer-wrapper">
 										<li className="mb-2">
-											<h4>Let's Connect</h4>
+											<h4>Contact Us !</h4>
 										</li>
 										{contactInfo?.map((info, i) => (
 											<li key={i}>

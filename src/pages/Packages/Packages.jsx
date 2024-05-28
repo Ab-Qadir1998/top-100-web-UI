@@ -25,7 +25,7 @@ const Packages = () => {
 										of $500. Your webmaster will seamlessly integrate this
 										package into your website. Following the integration, our
 										team at Top 100 Website Advertising initiates your
-										business's advertising campaign, priced at $250.00 per
+										businesses advertising campaign, priced at $250.00 per
 										month. Should you, as the owner of the website business,
 										ever find our performance unsatisfactory, there's no
 										obligation to make payment.
