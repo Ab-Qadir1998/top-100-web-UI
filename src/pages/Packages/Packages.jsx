@@ -3,11 +3,13 @@ import InputField from "../../components/InputField";
 import ThemeButton from "../../components/ThemeButton";
 import PageBanner from "../../components/PagesBanner";
 import { Link } from "react-router-dom";
+import { Banner } from "../../components";
+import GetInTouchSec from "../../sections/contactus/GetInTouchSec";
 const Packages = () => {
 	return (
 		<>
 			<PageBanner dark_heading="Packages" image_logo="wihtout-image" />
-			<section className="package-section section-padding">
+			<section className="package-section section-padding pb-0">
 				<div className="container">
 					<div className="package-start">
 						<div className="row">
@@ -62,7 +64,7 @@ const Packages = () => {
 					</div>
 				</div>
 			</section>
-			<section className="package-quote pb-5 mb-4">
+			{/* <section className="package-quote pb-5 mb-4">
 				<div className="container">
 					<div className="package-quote-start quote-box p-3 p-sm-5 pt-4">
 						<div className="row">
@@ -74,7 +76,6 @@ const Packages = () => {
 									<h2 className="level-2">
 										Get a <span className="text-primary">Quote Now!</span>
 									</h2>
-									{/* <p className="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p> */}
 								</div>
 							</div>
 							<div className="col-lg-7 mt-4 mt-lg-0">
@@ -138,7 +139,8 @@ const Packages = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
+			<GetInTouchSec />
 		</>
 	);
 };
