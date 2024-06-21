@@ -10,7 +10,7 @@ const Checkout = () => {
 				<div className="container">
 					<div className="checkout-start">
 						<div className="row">
-							<div className="col-md-6 pe-lg-0 order-1 order-md-0">
+							{/* <div className="col-md-6 pe-lg-0 order-1 order-md-0">
 								<div className="form-here">
 									<form>
 										<div className="row">
@@ -66,26 +66,25 @@ const Checkout = () => {
 											</div>
 
 											<div className="mb-3 col-12 mt-auto">
-												{/* <button
-                                                    type="submit"
-                                                    className={`btn  extra-btn w-100 d-block`}
-                                                >
-                                                    <img src={paypalImg} className="paypal-img" alt="" />
-                                                </button> */}
-												<PayPalBtn />
+												<button
+													type="submit"
+													className={`btn  extra-btn w-100 d-block`}
+												>
+													<img src={paypalImg} className="paypal-img" alt="" />
+												</button>
 											</div>
 										</div>
 									</form>
 								</div>
-							</div>
-							<div className="col-lg-5 col-md-6 ms-auto mb-5 mb-md-0">
+							</div> */}
+							<div className="col-lg-5 col-md-6 ms-auto mb-5 mb-md-0 mx-auto">
 								<div className="col-lg-10 ms-auto">
 									<div className="checkout-box">
 										<h4 className="level-4 text-dark text-decoration-underline">
 											Package Summary
 										</h4>
 										<div className="service-options">
-											<div className="row">
+											<div className="row wrapper-position">
 												<div className="col-md-5 mt-2">
 													<span className="para font-small">Package Name:</span>
 												</div>
@@ -122,6 +121,9 @@ const Checkout = () => {
 														{" "}
 														$250.00 – Ongoing
 													</span>
+												</div>
+												<div className="col-lg-10  mt-3">
+													<PayPalBtn />
 												</div>
 											</div>
 										</div>
