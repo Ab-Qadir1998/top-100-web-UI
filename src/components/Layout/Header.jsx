@@ -74,7 +74,7 @@ const Header = () => {
 											</span>
 											{item?.subItems && (
 												<ul className={`dropdown-menu ${menu ? "active" : ""}`}>
-													{item?.subItems?.map((subItem, i) => (
+													{/* {item?.subItems?.map((subItem, i) => (
 														<li key={i}>
 															<Link
 																className="dropdown-item"
@@ -84,7 +84,7 @@ const Header = () => {
 																<i className="fas fa-chevron-right"></i>
 															</Link>
 														</li>
-													))}
+													))} */}
 												</ul>
 											)}
 										</li>

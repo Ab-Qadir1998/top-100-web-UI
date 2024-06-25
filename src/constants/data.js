@@ -47,11 +47,11 @@ export const navItems = [
 		label: "Contact",
 		link: "/contactus",
 	},
-	{
-		label: "GET A QUOTE",
-		link: "/get-quote",
-		className: "btn primary-btn start",
-	},
+	// {
+	// 	label: "GET A QUOTE",
+	// 	link: "/get-quote",
+	// 	className: "btn primary-btn start",
+	// },
 ];
 
 export const footerLinks = [
